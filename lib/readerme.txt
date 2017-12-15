@@ -1,0 +1,1 @@
+dubbo2.5.3和dubbo2.8.3与spring2.5.3是兼容的！
