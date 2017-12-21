@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context
+ reloadable="true"
+ docBase="D:\apache-tomcat-7.0.52\CasServer1.0"
+ path="/cas" >
+</Context>
