@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Premain-Class: MySizeOf
+Created-By: 1.7.0_80 (Oracle Corporation)
+
