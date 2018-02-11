@@ -2,6 +2,7 @@
 import java.util.ArrayList;
 public class TestSize {
 	public static void main(String[] args) {
+		System.out.println("Object size:" + MySizeOf.sizeOf(new Object()));
 		System.out.println("Interger size:" + MySizeOf.sizeOf(new Integer(1)));
 		System.out.println("String size:" + MySizeOf.sizeOf(new String("a")));
 		System.out.println("String fullsize:" + MySizeOf.fullSizeOf(new String("a")));
