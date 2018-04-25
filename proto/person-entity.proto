@@ -1,4 +1,4 @@
-option java_outer_classname = "com.cyb.PersonEntity";
+option java_outer_classname = "PersonEntity";
 message Person {  
   required int32 id = 1;
   required string name = 2;
