@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<rqs>
+	<rq>
+	{
+	  "aaaCdDe": "aaaCdDe",
+	  "abcd": "string",
+	  "adate": "string",
+	  "bbbBbbCdDe": "bbbBbbCdDe",
+	  "f": "getUser",
+	  "id": "99",
+	  "pc": ["ag","cu"],
+	  "qDate": "qDate",
+	  "userName": "userName",
+	  "v": "大于0的整数"
+	}
+	</rq>
+	<rq>
+	{
+	  "aaaCdDe": "aaaCdDe",
+	  "abcd": "string",
+	  "adate": "string",
+	  "bbbBbbCdDe": "bbbBbbCdDe",
+	  "f": "getUser",
+	  "id": "99",
+	  "pc": ["ag","cu"],
+	  "qDate": "qDate",
+	  "userName": "userName",
+	  "v": "大于0的整数"
+	}
+	</rq>
+</rqs>
+</rqs>

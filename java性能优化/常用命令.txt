@@ -1,0 +1,63 @@
+top   cpu和内存使用情况  按1可以查看cpu个数
+netstat -ano|grep 8085|wc -l  查看8085连接打开的个数  
+df -m 当前磁盘分区的空间大小
+free -m 内存大小
+oralce最大连接数查询
+select count(*) from v$process ;    --当前的数据库连接数
+select value from v$parameter where name ='processes';  --数据库允许的最大连接数 2000
+alter system set processes = 300 scope = spfile;  --修改最大连接数:
+shutdown immediate; --关闭数据库
+startup; --重启数据库
+select osuser, a.username, cpu_time/executions/1000000||'s', b.sql_text, machine
+from v$session a, v$sqlarea b
+where a.sql_address =b.address
+order by cpu_time/executions desc;  --查看当前有哪些用户正在使用数据
+select count(*) from v$session  --当前的session连接数
+select count(*) from v$session where status='ACTIVE';　--并发连接数
+
+netstat -ano|grep 8085|wc -l  查看连接数
+查出哪个IP地址连接最多,将其封了.
+netstat -na|grep ESTABLISHED|awk {print $5}|awk -F: {print $1}|sort|uniq -c|sort -r +0n
+netstat -na|grep SYN|awk {print $5}|awk -F: {print $1}|sort|uniq -c|sort -r +0n
+查看apache当前并发访问数：
+netstat -an | grep ESTABLISHED | wc -l
+jmap -histo  pid 查看内存对象创建个数
+num  #instances #byte class name
+前20名   jmap -histo pid|sort -n -r -k 2|head -20
+jmap -heap pid 查看jvm内存分配空间
+JVM默认thread stack的大小为1024，修改指定值-Xss128k
+配置合理的tomcat连接数 ，避免过多的cpu上下文切换时间。
+
+设置linux的最大运行线程数  
+ulimit -a  65536
+ulimit -u 查看允许开启的线程数量。
+pstree -p|wc -l  查看系统已经使用的线程或者进程数。
+数据库最大连接2000
+允许打开1024 已经使用372 可用652   tomcat配置500+100可以   配置700+200直接挂掉。
+tomcat 配置两个jvm分别为2048-4096  但是可用的存储空间仅有3.1G.
+1、 cat /proc/${pid}/status
+2、pstree -p ${pid}
+3、top -p ${pid} 再按H  或者直接输入 top -bH -d 3 -p  ${pid}
+
+查看操作系统的位数 
+getconf LONG_BIT  32或者64
+file /sbin/init
+file /bin/ls
+uname -a 查看所有的限制信息
+uname -u 允许打开的进程数
+uname -n 允许打开的文件数
+
+重启命令：
+1、reboot
+2、shutdown -r now 立刻重启(root用户使用)
+3、shutdown -r 10 过10分钟自动重启(root用户使用) 
+4、shutdown -r 20:35 在时间为20:35时候重启(root用户使用)
+如果是通过shutdown命令设置重启的话，可以用shutdown -c命令取消重启
+
+关机命令：
+1、halt   立刻关机
+2、poweroff  立刻关机
+3、shutdown -h now 立刻关机(root用户使用)
+4、shutdown -h 10 10分钟后自动关机
+如果是通过shutdown命令设置关机的话，可以用shutdown -c命令取消重启
+

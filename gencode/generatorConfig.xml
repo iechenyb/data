@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+        <comment author="iechenyb" company="东航金控有限责任公司"/>
+		<ftl path="d:/data/gencode/ftl/"/>
+		<modules basePackage="com.cyb.web" targetProject="src/main/java">			
+			<module name="user" desc="用户管理" ftlFile="user.ftl"/>
+			<module name="role" desc="角色管理" ftlFile="user.ftl"/>
+			<module name="login" desc="登录管理" ftlFile="user.ftl"/>
+		</modules>
+    </context>
+</generatorConfiguration>

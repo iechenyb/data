@@ -1,0 +1,20 @@
+请按任意键继续. . .
+d:\data\maven>mvn install:install-file -Dfile=iechenyb.jar -DgroupId=com.cyb -DartifactId=iechenyb -Dversion=0
+.0.1 -Dpackaging=jar
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-install-plugin:2.3.1:install-file (default-cli) @ standalone-pom ---
+[INFO] Installing d:\data\maven\iechenyb.jar to C:\Users\DHUser\.m2\repository\com\cyb\iechenyb\0.0.1\iechenyb
+-0.0.1.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.750s
+[INFO] Finished at: Mon May 28 13:11:04 CST 2018
+[INFO] Final Memory: 6M/183M
+[INFO] ------------------------------------------------------------------------
+请按任意键继续. . .

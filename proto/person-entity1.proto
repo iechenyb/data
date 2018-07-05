@@ -1,0 +1,8 @@
+syntax = "proto2";
+package mypackage;
+option java_outer_classname = "PersonEntity1";
+message Person1 {  
+  required int32 id = 1;
+  required string name = 2;
+  optional string email = 3;
+}  
