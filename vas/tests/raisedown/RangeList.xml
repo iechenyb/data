@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <rqs>
-	<rq skip="0" uri="/RaiseDown/RangeList">
+	<rq skip="0" uri="/RaiseDown/RangeList" name="幅度统计">
 	{
 	  "f": "RangeList",
 	  "id": "string",

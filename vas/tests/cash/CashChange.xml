@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <rqs>
 	<!-- 正常传值 一个品种 -->
-	<rq skip="0" uri="/Cash/CashChange">
+	<rq skip="0" uri="/Cash/CashChange" name="品种资金变化">
 	{
 	  "f": "CashC",
 	  "id": "string",

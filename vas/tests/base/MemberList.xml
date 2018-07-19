@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <rqs>
-	<rq skip="0" uri="/Base/MemberList">
+	<rq skip="0" uri="/Base/MemberList" name="会员列表">
 	{
 		"f": "MemberList",
 		"id": "12",

@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <rqs>
-	<rq skip="0" uri="/Hold/RaiseFall">
+	<rq skip="0" uri="/Hold/RaiseFall" name="多空支持比指数">
 	{
 	  "f": "RaiseFall",
 	  "id": "string",

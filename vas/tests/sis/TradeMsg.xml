@@ -3,13 +3,13 @@
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <rqs>
-	<rq skip="0" uri="/Signal/TradeMsg">
+	<rq skip="0" uri="/Signal/TradeMsg" name="策略信号">
 	{
 	  "f": "TradeMsg",
 	  "id": "string",
 	  "rq": {
 	    "pc": ["ag"],
-	    "v": "12"
+	    "v": "120"
 	  }
 	}
 	</rq>

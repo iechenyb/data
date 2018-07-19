@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <rqs>
 	<!-- 正常传值 一个品种 -->
-	<rq skip="0" uri="/Hold/BigHold">
+	<rq skip="0" uri="/Hold/BigHold" name="大户持仓">
 	{
 	  "f": "BigHold",
 	  "id": "string",

@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <rqs>
-	<rq skip="0" uri="/Base/ServTime">
+	<rq skip="0" uri="/Base/ServTime" name="服务器时间">
 	{
 		"f": "ServTime",
 		"id": "12",
