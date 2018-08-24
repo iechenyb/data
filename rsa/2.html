@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">  
+<html:html lang="true">  
+<head>  
+    <title>login</title>  
+    <script type="text/javascript" src="js/RSA.js"></script>  
+    <script type="text/javascript" src="js/BigInt.js"></script>  
+    <script type="text/javascript" src="js/Barrett.js"></script>  
+      
+    <script type="text/javascript">  
+function rsalogin(){  
+    var thisPwd = document.getElementById("password").value;  
+    bodyRSA();  
+    var result = encryptedString(key, encodeURIComponent(thisPwd));  
+   // alert(encodeURIComponent(thisPwd)+"\r\n"+result);  
+   console.log("º”√‹∫Ûƒ⁄»›"+result);
+    //loginForm.action="loginCHK.jsp?result="+result;  
+  //  loginForm.submit();  
+}  
+var key ;  
+function bodyRSA(){  
+    setMaxDigits(130);  
+    key = new RSAKeyPair("10001","","e0bfce4beb846020c4ee48c88bef11c2fc988ed8ef3b77277382667fafdb2c6cb89983099916710a0054d8c45eb6c6206bd9bd0f146c2f99013bef44f7ff3551c69f8ba5594927c399c8bfa3ba724bd6ea24c7eaf518bf2e3b405f2b5b2784b0c76340db49e588d744625641c400494a336c15e20a04a2a197f1ba8a08c0fbd3"); 
+}  
+</script>  
+</head>  
+  
+<body>  
+    <form method="post" name="loginForm" target=_blank>  
+        <table border="0">  
+            <tr>  
+                <td>  
+                    Password:  
+                </td>  
+                <td>  
+                    <input type='text' name="password" id=password style='width:400px' value="helloworld"/>  
+                </td>  
+            </tr>  
+            <tr>  
+                <td colspan="2" align="center">  
+                    <input type="button" value="SUBMIT" onclick="rsalogin();" />  
+                </td>  
+            </tr>  
+        </table>  
+    </form>  
+</body>  
+</html:html> 
