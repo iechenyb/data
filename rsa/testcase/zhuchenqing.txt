@@ -1,0 +1,27 @@
+{
+  "PUBLIC": "-----BEGIN PUBLIC KEY-----?MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJ8ZeIfGRqSrEBDXfl7ICONn5emcBKdU?NIhPnct3EtgfulmwhyB5uUJzwpQQ8MsW1mTk9T/GawIVjwJtBZ6iwQUCAwEAAQ==?-----END PUBLIC KEY-----",
+  "PRIVATE": "-----BEGIN PRIVATE KEY-----?MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAnxl4h8ZGpKsQENd+?XsgI42fl6ZwEp1Q0iE+dy3cS2B+6WbCHIHm5QnPClBDwyxbWZOT1P8ZrAhWPAm0F?nqLBBQIDAQABAkAF3ri1ubkNhko3dNvyv0qkqUawUdNSISc3CEj4ItKNKr9gDUh2?JsWk8pQXzwX3VjXRBROucrM6v+/YdStEEabZAiEA8fZlhvrP+UuypWRPLFUEx2Wu?ydBpB6vvSnJy1FrfLm8CIQCoVGavUf+9c99IjadSt0T3kyB/ViBwheFjOUQe7G2B?ywIgOmZoNt4OmHMm2TiOy3pxvtbSCy/cSde719Ir2Qld2M0CIBKEHjuA0Jndah1H?/7TYlgyJsZRwO+dEwtMwVG72YOFbAiEAhj1jQfIqtwat7GkukVV2yLsODC7/H1Lj?i5jLTYhJlGw=?-----END PRIVATE KEY-----",
+  "utf8":"PKCS1_OAEP_PADDING",
+  "tests": [
+    {
+      "encrypted": "KCuJr8Kl7gZTJ3Bo/Yo7J3Ci/MUw/sc7coitZ/LU2ohLHYrKq4Uwlrg1uhtZr9cDpJS7f810wNMe+qsjxx8sCg==",
+      "decrypted": "欢迎来到chacuo.net"
+    },
+    {
+      "encrypted": "BnZRMCWxT/6gsP6iuRvOVCFTF7slEaM0oL+nzaBxC2rr9zvI9Y3pY2P1yLLGPIoIuJc7exmwyrCUQXAy8dOCoQ==",
+      "decrypted": "欢迎来到chacuo.net"
+    },
+    {
+      "encrypted": "NHtgEvu6vXRVrDX6oPiymRzTcPSJr34oOA/eJ39/HfT4MO0UKBr8PU5drRyQe4IdRA9EB5tfktnpRZirlhpbHw==",
+      "decrypted": "123123"
+    },
+    {
+      "encrypted": "e3oba5MJfhaxC9LhDyvQsBjdQSBTYbW9bCGEMjZ5jksSoWVKNijyQxHusEE7YvZlO+fgfUT1lv1YywK2hndaMw==",
+      "decrypted": ")(~*!)(#)(~&)(&)~($&"
+    },
+    {
+      "encrypted": "KbMiGUhtiCs4z0vicyFhfRPWXqnShZWAj6mEe7yqAVaKTJZqUpGsB0FJZrzxzq+UbhuNnjYFiBskGefSGVb6mA==",
+      "decrypted": "~!@#$%^&*()_+"
+    }
+  ]
+}

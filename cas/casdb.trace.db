@@ -1,0 +1,3 @@
+08-13 14:18:58 jdbc[226]: exception
+org.h2.jdbc.JdbcSQLException: Table "T" not found; SQL statement:
+SELECT * FROM t [42102-171]

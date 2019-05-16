@@ -1,0 +1,5 @@
+"ID","NAME","DESC"
+"2","ROLE_DELETE","删除数据角色"
+"3","ROLE_UPDATE","更新数据角色"
+"1","ROLE_ADD","增加数据角色"
+"4","ROLE_QUERY","浏览数据角色"

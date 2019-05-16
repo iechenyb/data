@@ -1,0 +1,325 @@
+== Definitions
+=== Company
+:hardbreaks:
+公司信息描述
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|companyid|仅更新或者查询时，传参数！|false|integer (int32)|
+|id|主键，请求时参数忽略|false|integer (int32)|
+|showorder|仅更新或者查询时，传参数！|false|integer (int32)|
+|subcompanyname|仅更新或者查询时，传参数！|false|string|
+|supsubcomid|仅更新或者查询时，传参数！|false|integer (int32)|
+|===
+
+=== DepartmentEntity
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|departmentname|仅更新或者查询时，传参数！|false|string|
+|id|主键，请求时参数忽略|false|integer (int32)|
+|showorder|仅更新或者查询时，传参数！|false|integer (int32)|
+|subcompanyid1|仅更新或者查询时，传参数！|false|integer (int32)|
+|supdepid|仅更新或者查询时，传参数！|false|integer (int32)|
+|===
+
+=== EmployeeEntity
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|departmentid|仅更新或者查询时，传参数！|false|integer (int32)|
+|email|仅更新或者查询时，传参数！|false|string|
+|id|主键，请求时参数忽略|false|integer (int32)|
+|lastname|仅更新或者查询时，传参数！|false|string|
+|loginid|仅更新或者查询时，传参数！|false|string|
+|mobile|仅更新或者查询时，传参数！|false|string|
+|password|仅更新或者查询时，传参数！|false|string|
+|subcompanyid1|仅更新或者查询时，传参数！|false|integer (int32)|
+|===
+
+=== ModelAndView
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|empty||false|boolean|
+|model||false|object|
+|modelMap||false|object|
+|reference||false|boolean|
+|status||false|enum (100, 101, 102, 103, 200, 201, 202, 203, 204, 205, 206, 207, 208, 226, 300, 301, 302, 303, 304, 305, 307, 308, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 426, 428, 429, 431, 451, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511)|
+|view||false|<<View>>|
+|viewName||false|string|
+|===
+
+=== PasswordVo
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|newPassword||false|string|
+|oldPassword||false|string|
+|===
+
+=== TestBean
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|account||false|string|
+|id||false|integer (int32)|
+|name||false|string|
+|password||false|string|
+|===
+
+=== View
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|contentType||false|string|
+|===
+
+=== 树节点信息
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|children|通用子节点信息|false|<<树节点信息>> array|
+|deparments|部门信息|false|<<树节点信息>> array|
+|icon|预留字段|false|string|
+|id|记录id|false|string|
+|name|节点名称|false|string|
+|pid|节点的父节点id|false|string|
+|reservedField|预留字段，目前有值时，表示部门所在公司id|false|string|
+|type|节点类型 1 公司 2部门 3员工|false|string|
+|===
+
+=== 用户角色视图信息
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|roleId|角色主键|false|string|
+|roleName|角色名称|false|string|
+|userId|用户主键|false|string|
+|===
+
+=== 系统用户信息
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|empNo|用户编号|false|string|
+|id|主键|false|integer (int32)|
+|isEffect|是否可用 1可用 其他值不可用|false|integer (int32)|
+|lastLoginIp|上次登录ip，忽略|false|string|
+|lastLoginTime|上次登录时间，忽略|false|integer (int64)|
+|loginIp|最新登录ip，忽略|false|string|
+|loginSum|登录次数，忽略|false|integer (int32)|
+|loginTime|登录时间，忽略|false|integer (int64)|
+|operateID|记录操作人员id,忽略|false|integer (int32)|
+|password|密码|false|string|
+|userName|用户名称|false|string|
+|===
+
+=== 系统菜单信息！
+:hardbreaks:
+系统菜单信息
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|children|子节点，请求时参数忽略|false|<<系统菜单信息！>> array|
+|createTime|创建时间 yyyymmddhhmmss，请求时参数忽略|false|integer (int64)|
+|cretatePerson|创建人员信息，请求时参数忽略|false|string|
+|id|主键，请求时参数忽略|false|integer (int32)|
+|isLeaf|是否叶子节点 1是 0不是|false|integer (int32)|
+|menuDesc|菜单描述|false|string|
+|menuName|菜单名称|false|string|
+|modifyPerson|修改人员 ，请求时参数忽略|false|string|
+|modifyTime|修改时间 ，请求时参数忽略|false|integer (int64)|
+|ordor|菜单排序权重值(兄弟菜单排序)|false|integer (int32)|
+|parentId|父菜单主键|false|integer (int32)|
+|url|请求路径|false|string|
+|===
+
+=== 统一返回对象«List«Company»»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<Company>> array|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«List«DepartmentEntity»»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<DepartmentEntity>> array|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«List«EmployeeEntity»»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<EmployeeEntity>> array|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«List«TestBean»»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<TestBean>> array|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«List«用户角色视图信息»»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<用户角色视图信息>> array|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«List«系统用户信息»»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<系统用户信息>> array|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«List«系统菜单信息！»»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<系统菜单信息！>> array|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«List«角色信息»»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<角色信息>> array|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«List«角色菜单关系»»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<角色菜单关系>> array|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«int»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|integer (int32)|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«string»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|string|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«树节点信息»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<树节点信息>>|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一返回对象«系统菜单信息！»
+:hardbreaks:
+统一的返回值定义方式
+
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|d|数据体|false|<<系统菜单信息！>>|
+|ec|执行状态|false|string|
+|es|执行结果|false|string|
+|===
+
+=== 统一验证bean
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|list||false|string array|
+|map||false|object|
+|number|必须大于等于6的整数！|false|integer (int64)|
+|password|密码，非空|false|string|
+|phone||false|string|
+|username|用户名,不可以为空|false|string|
+|===
+
+=== 角色信息
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|description|角色描述|false|string|
+|id|主键|false|integer (int32)|
+|roleName|角色标识|false|string|
+|===
+
+=== 角色菜单关系
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|id|主键|false|integer (int32)|
+|menuId|菜单主键|false|integer (int32)|
+|roleId|角色主键|false|integer (int32)|
+|===
+

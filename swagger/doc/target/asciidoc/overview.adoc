@@ -1,0 +1,31 @@
+= zuul proxy service
+
+== Overview
+更多Swagger2配置相关文章请关注：https://springfox.github.io/springfox/docs/current/
+
+=== Version information
+Version: 1.0
+
+Terms of service: https://springfox.github.io/springfox/docs/current/
+
+=== URI scheme
+Host: localhost
+BasePath: /
+
+=== Tags
+
+* rsa-controller: RSA Controller
+* RoleMenuApi: 角色菜单基本信息操作API
+* EmployeeApi: 职工基本信息操作API
+* RoleApi: 角色基本信息操作API
+* verity-code-controller: Verity Code Controller
+* MenuApi: 菜单基本信息操作API
+* CompanyApi: 公司基本信息操作API
+* UserApi: 用户基本信息操作API
+* jsr-controller: JSR Controller
+* OrganizationApi: 组织机构基本信息操作API
+* api-controller: Api Controller
+* generic-controller: Generic Controller
+* DepartmentApi: 部门基本信息操作API
+
+

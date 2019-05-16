@@ -1,0 +1,1 @@
+java -cp h2*.jar org.h2.tools.Script -url " jdbc:h2:tcp://localhost/d:/data/cas/casdb" -user "root" -password "111111" -script "d:/data/cas/backup.sql"
