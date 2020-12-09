@@ -1,0 +1,88 @@
+10.72.8.235 - - [09/Apr/2020:17:04:45 +0800] "-" 400 2256
+10.72.8.235 - - [09/Apr/2020:17:04:45 +0800] "-" 400 2256
+10.72.201.236 - - [09/Apr/2020:17:04:57 +0800] "-" 400 2256
+10.72.201.236 - - [09/Apr/2020:17:04:57 +0800] "-" 400 2256
+10.72.201.236 - - [09/Apr/2020:17:05:01 +0800] "-" 400 2571
+10.72.201.236 - - [09/Apr/2020:17:05:01 +0800] "-" 400 2256
+10.72.201.236 - - [09/Apr/2020:17:05:05 +0800] "GET / HTTP/1.1" 200 2092
+10.72.201.236 - - [09/Apr/2020:17:05:05 +0800] "GET /tomcat.css HTTP/1.1" 200 1749
+10.72.201.236 - - [09/Apr/2020:17:05:05 +0800] "GET /tomcat.png HTTP/1.1" 200 5103
+10.72.201.236 - - [09/Apr/2020:17:05:05 +0800] "GET /asf-logo-wide.svg HTTP/1.1" 200 27235
+10.72.201.236 - - [09/Apr/2020:17:05:05 +0800] "GET /bg-button.png HTTP/1.1" 200 713
+10.72.201.236 - - [09/Apr/2020:17:05:05 +0800] "GET /bg-middle.png HTTP/1.1" 200 1918
+10.72.201.236 - - [09/Apr/2020:17:05:05 +0800] "GET /bg-upper.png HTTP/1.1" 200 3103
+10.72.201.236 - - [09/Apr/2020:17:05:05 +0800] "GET /bg-nav.png HTTP/1.1" 200 1401
+10.72.201.236 - - [09/Apr/2020:17:05:05 +0800] "GET /favicon.ico HTTP/1.1" 200 21630
+10.72.201.236 - - [09/Apr/2020:17:05:11 +0800] "GET /manager/status HTTP/1.1" 403 1507
+10.72.201.236 - - [09/Apr/2020:17:05:17 +0800] "GET /manager/html HTTP/1.1" 403 1507
+10.72.201.236 - - [09/Apr/2020:17:05:24 +0800] "-" 400 2256
+10.72.201.236 - - [09/Apr/2020:17:06:20 +0800] "-" 400 2256
+10.72.201.236 - - [09/Apr/2020:17:06:24 +0800] "GET / HTTP/1.1" 200 2092
+10.72.201.236 - - [09/Apr/2020:17:06:48 +0800] "GET / HTTP/1.1" 200 2092
+10.72.201.236 - - [09/Apr/2020:17:07:16 +0800] "GET / HTTP/1.1" 200 2092
+10.72.201.236 - - [09/Apr/2020:17:07:16 +0800] "GET /favicon.ico HTTP/1.1" 200 21630
+10.72.201.236 - - [09/Apr/2020:17:20:05 +0800] "GET //ecBms/login HTTP/1.1" 404 -
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms HTTP/1.1" 302 -
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/ HTTP/1.1" 200 3467
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/js/common.js HTTP/1.1" 200 1504
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/css/style.css HTTP/1.1" 200 644
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/css/jquery-ui.min.css HTTP/1.1" 200 7644
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/js/jquery.form.js HTTP/1.1" 200 12409
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/js/jquery-1.11.2.min.js HTTP/1.1" 200 33804
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/images/logo.gif HTTP/1.1" 200 9376
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/js/jquery-ui.min.js HTTP/1.1" 200 64775
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/images/btnbg.gif HTTP/1.1" 200 1214
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/images/gs.gif HTTP/1.1" 200 1577
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/images/bg.jpg HTTP/1.1" 200 311806
+10.72.8.141 - - [09/Apr/2020:17:20:19 +0800] "GET /ecBms/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png HTTP/1.1" 200 278
+10.72.8.141 - - [09/Apr/2020:17:20:20 +0800] "POST /ecBms/departmentAction/listDepartments HTTP/1.1" 200 289
+10.72.8.141 - - [09/Apr/2020:17:20:25 +0800] "POST /ecBms/employeeAction/login HTTP/1.1" 200 34
+10.72.8.141 - - [09/Apr/2020:17:20:25 +0800] "GET /ecBms/employeeAction/main HTTP/1.1" 302 -
+10.72.8.141 - - [09/Apr/2020:17:20:25 +0800] "GET /ecBms/welcome HTTP/1.1" 200 1428
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/welcome.jsp HTTP/1.1" 200 1543
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/top.jsp HTTP/1.1" 200 1364
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/right.jsp HTTP/1.1" 200 529
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/bottom.jsp HTTP/1.1" 200 717
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/menu.jsp HTTP/1.1" 200 1489
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/images/btnhome.gif HTTP/1.1" 200 3226
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/images/btnquit.gif HTTP/1.1" 200 2990
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/images/bgsy.jpg HTTP/1.1" 200 70875
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/images/bottom03.jpg HTTP/1.1" 200 3013
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/images/bottom01.jpg HTTP/1.1" 200 5287
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/css/zTreeStyle.css HTTP/1.1" 200 1477
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/css/demo.css HTTP/1.1" 200 962
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/js/jquery.ztree.core-3.5.js HTTP/1.1" 200 11519
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/images/btnhome2.gif HTTP/1.1" 200 2887
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/images/btnquit2.gif HTTP/1.1" 200 3038
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "POST /ecBms/employeeAction/listMenu HTTP/1.1" 200 4061
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/images/zTreeStandard.png HTTP/1.1" 200 12573
+10.72.8.141 - - [09/Apr/2020:17:20:26 +0800] "GET /ecBms/images/folder_Close.gif HTTP/1.1" 200 1497
+10.72.201.236 - - [09/Apr/2020:17:20:29 +0800] "GET /ecBms/login HTTP/1.1" 200 3467
+10.72.201.236 - - [09/Apr/2020:17:20:29 +0800] "GET /ecBms/css/style.css HTTP/1.1" 200 644
+10.72.201.236 - - [09/Apr/2020:17:20:29 +0800] "GET /ecBms/js/common.js HTTP/1.1" 200 1504
+10.72.201.236 - - [09/Apr/2020:17:20:29 +0800] "GET /ecBms/js/jquery.form.js HTTP/1.1" 200 12409
+10.72.201.236 - - [09/Apr/2020:17:20:29 +0800] "GET /ecBms/css/jquery-ui.min.css HTTP/1.1" 200 7644
+10.72.201.236 - - [09/Apr/2020:17:20:29 +0800] "GET /ecBms/images/logo.gif HTTP/1.1" 200 9376
+10.72.201.236 - - [09/Apr/2020:17:20:29 +0800] "GET /ecBms/js/jquery-1.11.2.min.js HTTP/1.1" 200 33804
+10.72.201.236 - - [09/Apr/2020:17:20:29 +0800] "GET /ecBms/js/jquery-ui.min.js HTTP/1.1" 200 64775
+10.72.201.236 - - [09/Apr/2020:17:20:30 +0800] "GET /ecBms/images/gs.gif HTTP/1.1" 200 1577
+10.72.201.236 - - [09/Apr/2020:17:20:30 +0800] "GET /ecBms/images/btnbg.gif HTTP/1.1" 200 1214
+10.72.201.236 - - [09/Apr/2020:17:20:30 +0800] "GET /ecBms/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png HTTP/1.1" 200 278
+10.72.201.236 - - [09/Apr/2020:17:20:30 +0800] "GET /ecBms/images/bg.jpg HTTP/1.1" 200 311806
+10.72.201.236 - - [09/Apr/2020:17:20:30 +0800] "GET /ecBms/css/images/ui-bg_glass_100_f6f6f6_1x400.png HTTP/1.1" 200 262
+10.72.201.236 - - [09/Apr/2020:17:20:30 +0800] "GET /ecBms/css/images/ui-icons_228ef1_256x240.png HTTP/1.1" 200 4549
+10.72.201.236 - - [09/Apr/2020:17:20:30 +0800] "POST /ecBms/departmentAction/listDepartments HTTP/1.1" 200 289
+10.72.201.236 - - [09/Apr/2020:17:20:30 +0800] "GET /ecBms/images/icon32.ico HTTP/1.1" 200 4286
+10.72.8.141 - - [09/Apr/2020:17:20:30 +0800] "GET /ecBms/images/folder_Open.gif HTTP/1.1" 200 1455
+10.72.8.141 - - [09/Apr/2020:17:20:30 +0800] "GET /ecBms/images/line_conn.gif HTTP/1.1" 200 65
+10.72.8.141 - - [09/Apr/2020:17:20:32 +0800] "POST /ecBms/pageAction/resUrl HTTP/1.1" 200 85
+10.72.8.141 - - [09/Apr/2020:17:20:37 +0800] "POST /ecBms/pageAction/resUrl HTTP/1.1" 200 43
+10.72.8.141 - - [09/Apr/2020:17:20:37 +0800] "GET /ecBms/auth/functionInfo.jsp HTTP/1.1" 200 1752
+10.72.8.141 - - [09/Apr/2020:17:20:37 +0800] "POST /ecBms/functionAction/findByName HTTP/1.1" 200 2467
+10.72.201.236 - - [09/Apr/2020:17:21:30 +0800] "GET /ecBms/login HTTP/1.1" 200 3467
+10.72.201.236 - - [09/Apr/2020:17:21:30 +0800] "POST /ecBms/departmentAction/listDepartments HTTP/1.1" 200 289
+10.72.8.141 - - [09/Apr/2020:17:21:53 +0800] "GET /ecBms/employeeAction/logout HTTP/1.1" 302 -
+10.72.8.141 - - [09/Apr/2020:17:21:53 +0800] "GET /ecBms/login HTTP/1.1" 200 3467
+10.72.8.141 - - [09/Apr/2020:17:21:54 +0800] "GET /ecBms/login HTTP/1.1" 200 3467
+10.72.8.141 - - [09/Apr/2020:17:21:54 +0800] "POST /ecBms/departmentAction/listDepartments HTTP/1.1" 200 289
+10.72.8.141 - - [09/Apr/2020:17:21:54 +0800] "POST /ecBms/departmentAction/listDepartments HTTP/1.1" 200 289

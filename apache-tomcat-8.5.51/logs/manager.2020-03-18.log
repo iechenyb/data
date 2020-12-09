@@ -1,0 +1,1 @@
+18-Mar-2020 17:49:50.642 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [DELETE OPTIONS HEAD PUT TRACE] are covered. All other methods are uncovered.

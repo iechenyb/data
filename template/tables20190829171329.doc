@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application progid="Word.Document"?>
+<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
+<pkg:part pkg:name="/_rels/.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="512">
+<pkg:xmlData>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>
+<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>
+<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>
+</Relationships>
+</pkg:xmlData>
+</pkg:part>
+<pkg:part pkg:name="/word/_rels/document.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="256">
+<pkg:xmlData>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings" Target="webSettings.xml"/>
+<Relationship Id="rId7" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/>
+<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml"/>
+<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>
+<Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml"/>
+<Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/endnotes" Target="endnotes.xml"/>
+<Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes" Target="footnotes.xml"/>
+</Relationships>
+</pkg:xmlData>
+</pkg:part>
+<pkg:part pkg:name="/word/document.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml">
+<pkg:xmlData>
+<w:document mc:Ignorable="w14 w15 wp14" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+<w:body>
+<w:p w:rsidR="004B3084" w:rsidRDefault="004B3084" w:rsidP="004B3084"/>
+<w:p w:rsidR="00DF2B97" w:rsidRDefault="00DF2B97" w:rsidP="004B3084">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+
+
+Expected collection or sequence. tables evaluated instead to freemarker.template.SimpleHash on line 39, column 8 in tables1.ftl.
+The problematic instruction:
+----------
+==> list tables as table [on line 39, column 1 in tables1.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.template.TemplateException: Expected collection or sequence. tables evaluated instead to freemarker.template.SimpleHash on line 39, column 8 in tables1.ftl.
+	at freemarker.core.TemplateObject.invalidTypeException(TemplateObject.java:135)
+	at freemarker.core.IteratorBlock$Context.runLoop(IteratorBlock.java:190)
+	at freemarker.core.Environment.visit(Environment.java:416)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:102)
+	at freemarker.core.Environment.visit(Environment.java:209)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:209)
+	at freemarker.core.Environment.process(Environment.java:189)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.cyb.utils.office.GenerERTableWordUtils.createWord(GenerERTableWordUtils.java:94)
+	at com.cyb.utils.office.GenerERTableWordUtils.main(GenerERTableWordUtils.java:39)

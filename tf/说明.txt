@@ -1,0 +1,3 @@
+ctpdataupload 为上传文件临时文件
+total 为ctpdataupdata解压后的目录
+dbf按照总dbf拆分后的dbf文件

@@ -1,0 +1,7 @@
+18-Mar-2020 17:49:50.611 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [DELETE OPTIONS HEAD PUT TRACE] are covered. All other methods are uncovered.
+18-Mar-2020 17:53:04.087 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+18-Mar-2020 17:53:04.224 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+18-Mar-2020 17:53:13.378 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Set web app root system property: 'webapp.root' = [/home/trade/apache-tomcat-8.5.51/webapps/ecBms/]
+18-Mar-2020 17:53:13.378 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Initializing log4j from [classpath:log4j.properties]
+18-Mar-2020 17:53:13.386 SEVERE [localhost-startStop-3] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [DELETE OPTIONS HEAD PUT TRACE] are covered. All other methods are uncovered.
+18-Mar-2020 17:53:13.447 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'springMVC'

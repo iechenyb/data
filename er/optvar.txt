@@ -1,0 +1,616 @@
+[
+  {
+    "idx": "1",
+    "tableName": "tb_qh_optvariety_account",
+    "tableDesc": "期权及特定品种的二次开户信息",
+    "cols": [
+      {
+        "colName": "ID",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "CLIENT_NAME",
+        "colDesc": "二次开户客户名字",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "FUND_ACCOUNT",
+        "colDesc": "资金账号",
+        "colType": "VARCHAR2",
+        "colLength": "30",
+        "isEmpty": "N",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "OPEN_TYPE",
+        "colDesc": "开户类型1 豁免条件权限开通",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "PHONE_OPERATE_STATUS",
+        "colDesc": "app端资料提交状态",
+        "colType": "VARCHAR2",
+        "colLength": "10",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "PROMISE_ID",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "PROCESS_ID",
+        "colDesc": "流程流转id",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "CREATE_TIME",
+        "colDesc": "发起时间",
+        "colType": "VARCHAR2",
+        "colLength": "24",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "PERMSSION",
+        "colDesc": "权限信息格式：中金所，大商所，郑商所，上期所",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "APPLY_FILE_TYPE",
+        "colDesc": "0 中金所开户证明\n1 50etf期权交易证明\n2 国际能源交易中心开户证明\n3国内期货一年内50个交易日的成交记录证明\n4 商品期权或者特定品种交易权限证明",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "MOBILE",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "15",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "MODIFY_TIME",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "24",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      },
+      {
+        "colName": "DATA_STATUS",
+        "colDesc": "数据状态0正常，1已删除。",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "期权及特定品种的二次开户信息"
+      }
+    ]
+  },
+  {
+    "idx": "2",
+    "tableName": "tb_qh_optvariety_account_file",
+    "tableDesc": "二次开户相关附件记录信息",
+    "cols": [
+      {
+        "colName": "CSRC_FILE_NAME",
+        "colDesc": "证监会失信文件名",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "CFA_FILE_NAME",
+        "colDesc": "期货业协会客户信用文件名",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "FD_FILE_NAME",
+        "colDesc": "涉及金融严重失信人员名单查询。",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "CSRC_FILE_PATH",
+        "colDesc": "证监会失信文件名",
+        "colType": "VARCHAR2",
+        "colLength": "150",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "CFA_FILE_PATH",
+        "colDesc": "期货业协会客户信用文件名",
+        "colType": "VARCHAR2",
+        "colLength": "150",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "FD_FILE_PATH",
+        "colDesc": "涉及金融严重失信人员名单查询。",
+        "colType": "VARCHAR2",
+        "colLength": "150",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "CFFEX_FILE_NAME",
+        "colDesc": "已开通东航期货中金所交易权限的文件名",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "CFFEX_FILE_PATH",
+        "colDesc": "已开通东航期货中金所交易权限的文件路径",
+        "colType": "VARCHAR2",
+        "colLength": "150",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "APPLY_FILE_NAME",
+        "colDesc": "申请材料名称",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "APPLY_FILE_PATH",
+        "colDesc": "申请材料路径",
+        "colType": "VARCHAR2",
+        "colLength": "150",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "OPT_VAR_ID",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      },
+      {
+        "colName": "ID",
+        "colDesc": "无",
+        "colType": "CHAR",
+        "colLength": "10",
+        "isEmpty": "Y",
+        "tabDesc": "二次开户相关附件记录信息"
+      }
+    ]
+  },
+  {
+    "idx": "3",
+    "tableName": "tb_qh_promise",
+    "tableDesc": "承诺书的内容管理",
+    "cols": [
+      {
+        "colName": "ID",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "承诺书的内容管理"
+      },
+      {
+        "colName": "VERSION",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "20",
+        "isEmpty": "Y",
+        "tabDesc": "承诺书的内容管理"
+      },
+      {
+        "colName": "CONTENT",
+        "colDesc": "承诺书内容",
+        "colType": "VARCHAR2",
+        "colLength": "2000",
+        "isEmpty": "Y",
+        "tabDesc": "承诺书的内容管理"
+      },
+      {
+        "colName": "STATUS",
+        "colDesc": "是否删除  逻辑删除  0逻辑删除，非0正常。",
+        "colType": "VARCHAR2",
+        "colLength": "1",
+        "isEmpty": "Y",
+        "tabDesc": "承诺书的内容管理"
+      },
+      {
+        "colName": "BUSINESS_TYPE",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "承诺书的内容管理"
+      }
+    ]
+  },
+  {
+    "idx": "4",
+    "tableName": "tb_qh_question_bank",
+    "tableDesc": "问题题库",
+    "cols": [
+      {
+        "colName": "ID",
+        "colDesc": "主键",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "问题题库"
+      },
+      {
+        "colName": "QUESTION_TYPE_ID",
+        "colDesc": "所属题库",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "问题题库"
+      },
+      {
+        "colName": "QUESTION_DESC",
+        "colDesc": "问题描述",
+        "colType": "VARCHAR2",
+        "colLength": "500",
+        "isEmpty": "Y",
+        "tabDesc": "问题题库"
+      },
+      {
+        "colName": "QUERSTION_ORDER",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "问题题库"
+      },
+      {
+        "colName": "IS_MULTI",
+        "colDesc": "0 单选 1多选",
+        "colType": "VARCHAR2",
+        "colLength": "1",
+        "isEmpty": "Y",
+        "tabDesc": "问题题库"
+      },
+      {
+        "colName": "STATUS",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "问题题库"
+      }
+    ]
+  },
+  {
+    "idx": "5",
+    "tableName": "tb_qh_question_type",
+    "tableDesc": "问答题库类型",
+    "cols": [
+      {
+        "colName": "ID",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "问答题库类型"
+      },
+      {
+        "colName": "QUESTION_BANK_VERSION",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "20",
+        "isEmpty": "Y",
+        "tabDesc": "问答题库类型"
+      },
+      {
+        "colName": "QUESTION_BANK_NAME",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "问答题库类型"
+      },
+      {
+        "colName": "BUSINESS_TYPE",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "20",
+        "isEmpty": "Y",
+        "tabDesc": "问答题库类型"
+      },
+      {
+        "colName": "STATUS",
+        "colDesc": "0正常 1逻辑删除",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "问答题库类型"
+      }
+    ]
+  },
+  {
+    "idx": "6",
+    "tableName": "tb_qh_question_option",
+    "tableDesc": "问题选项",
+    "cols": [
+      {
+        "colName": "ID",
+        "colDesc": "主键",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "问题选项"
+      },
+      {
+        "colName": "QUESTION_ID",
+        "colDesc": "选项所属问题主键",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "问题选项"
+      },
+      {
+        "colName": "QUESTION_OPTION",
+        "colDesc": "问题选项信息 A,B C,D E ",
+        "colType": "VARCHAR2",
+        "colLength": "1",
+        "isEmpty": "Y",
+        "tabDesc": "问题选项"
+      },
+      {
+        "colName": "QUESTION_OPTION_DESC",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "150",
+        "isEmpty": "Y",
+        "tabDesc": "问题选项"
+      },
+      {
+        "colName": "IS_ANSWER",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "问题选项"
+      },
+      {
+        "colName": "STATUS",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "问题选项"
+      }
+    ]
+  },
+  {
+    "idx": "7",
+    "tableName": "tb_qh_send_msg",
+    "tableDesc": "短信发送历史记录",
+    "cols": [
+      {
+        "colName": "ID",
+        "colDesc": "主键",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "短信发送历史记录"
+      },
+      {
+        "colName": "FUND_ACCOUNT",
+        "colDesc": "资金账号",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "短信发送历史记录"
+      },
+      {
+        "colName": "MOBILE",
+        "colDesc": "手机号码",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "短信发送历史记录"
+      },
+      {
+        "colName": "CONTENT",
+        "colDesc": "短信内容",
+        "colType": "VARCHAR2",
+        "colLength": "200",
+        "isEmpty": "Y",
+        "tabDesc": "短信发送历史记录"
+      },
+      {
+        "colName": "SEND_DATE",
+        "colDesc": "短信发送时间",
+        "colType": "VARCHAR2",
+        "colLength": "30",
+        "isEmpty": "Y",
+        "tabDesc": "短信发送历史记录"
+      },
+      {
+        "colName": "BUSINESS_TYPE",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "短信发送历史记录"
+      },
+      {
+        "colName": "EMP_NAME",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "短信发送历史记录"
+      }
+    ]
+  },
+  {
+    "idx": "8",
+    "tableName": "tb_qh_bussiness",
+    "tableDesc": "业务类型表",
+    "cols": [
+      {
+        "colName": "ID",
+        "colDesc": "主键",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "N",
+        "tabDesc": "业务类型表"
+      },
+      {
+        "colName": "BUSINESS_TYPE",
+        "colDesc": "业务类型名称",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "N",
+        "tabDesc": "业务类型表"
+      },
+      {
+        "colName": "BUINESS_DESC",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "Y",
+        "tabDesc": "业务类型表"
+      }
+    ]
+  },
+  {
+    "idx": "9",
+    "tableName": "tb_qh_question_answer_record",
+    "tableDesc": "客户回访问答答案记录",
+    "cols": [
+      {
+        "colName": "ID",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "N",
+        "tabDesc": "客户回访问答答案记录"
+      },
+      {
+        "colName": "QUESTION_ID",
+        "colDesc": "试题的主键",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "客户回访问答答案记录"
+      },
+      {
+        "colName": "CLIENT_ANSWER_OPT",
+        "colDesc": "A,B,C,D",
+        "colType": "VARCHAR2",
+        "colLength": "20",
+        "isEmpty": "Y",
+        "tabDesc": "客户回访问答答案记录"
+      },
+      {
+        "colName": "FUND_ACCOUNT",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "客户回访问答答案记录"
+      },
+      {
+        "colName": "ANSWER_DATE",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "客户回访问答答案记录"
+      },
+      {
+        "colName": "OPEN_TYPE",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "客户回访问答答案记录"
+      }
+    ]
+  },
+  {
+    "idx": "10",
+    "tableName": "tb_qh_config",
+    "tableDesc": "不同业务的承诺书、问答题库版本配置项控制。",
+    "cols": [
+      {
+        "colName": "ID",
+        "colDesc": "主键",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "N",
+        "tabDesc": "不同业务的承诺书、问答题库版本配置项控制。"
+      },
+      {
+        "colName": "BUSINESS_TYPE",
+        "colDesc": "特定品种或者期权权限名",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "N",
+        "tabDesc": "不同业务的承诺书、问答题库版本配置项控制。"
+      },
+      {
+        "colName": "VERSION",
+        "colDesc": "权限代码",
+        "colType": "VARCHAR2",
+        "colLength": "50",
+        "isEmpty": "N",
+        "tabDesc": "不同业务的承诺书、问答题库版本配置项控制。"
+      },
+      {
+        "colName": "FUNCTION_TYPE",
+        "colDesc": "无",
+        "colType": "VARCHAR2",
+        "colLength": "100",
+        "isEmpty": "Y",
+        "tabDesc": "不同业务的承诺书、问答题库版本配置项控制。"
+      },
+      {
+        "colName": "DATA_STATUS",
+        "colDesc": "无",
+        "colType": "NUMBER",
+        "colLength": "22",
+        "isEmpty": "Y",
+        "tabDesc": "不同业务的承诺书、问答题库版本配置项控制。"
+      }
+    ]
+  }
+]

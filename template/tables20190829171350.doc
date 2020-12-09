@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application progid="Word.Document"?>
+<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
+<pkg:part pkg:name="/_rels/.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="512">
+<pkg:xmlData>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>
+<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>
+<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>
+</Relationships>
+</pkg:xmlData>
+</pkg:part>
+<pkg:part pkg:name="/word/_rels/document.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="256">
+<pkg:xmlData>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings" Target="webSettings.xml"/>
+<Relationship Id="rId7" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/>
+<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml"/>
+<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>
+<Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml"/>
+<Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/endnotes" Target="endnotes.xml"/>
+<Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes" Target="footnotes.xml"/>
+</Relationships>
+</pkg:xmlData>
+</pkg:part>
+<pkg:part pkg:name="/word/document.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml">
+<pkg:xmlData>
+<w:document mc:Ignorable="w14 w15 wp14" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+<w:body>
+<w:p w:rsidR="004B3084" w:rsidRDefault="004B3084" w:rsidP="004B3084"/>
+<w:p w:rsidR="00DF2B97" w:rsidRDefault="00DF2B97" w:rsidP="004B3084">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+</w:rPr>
+</w:pPr>
+</w:p>
+
+<w:p w:rsidR="008E1C49" w:rsidRDefault="008E1C49" w:rsidP="008E1C49"/>
+<w:p w:rsidR="008E1C49" w:rsidRDefault="008E1C49" w:rsidP="008E1C49"/>
+<w:p w:rsidR="008E1C49" w:rsidRDefault="008E1C49" w:rsidP="008E1C49"/>
+<w:p w:rsidR="008E1C49" w:rsidRDefault="008E1C49" w:rsidP="008E1C49"/>
+<w:p w:rsidR="008E1C49" w:rsidRDefault="008E1C49" w:rsidP="008E1C49"/>
+<w:p w:rsidR="008E1C49" w:rsidRDefault="008E1C49" w:rsidP="008E1C49"/>
+<w:tbl>
+<w:tblPr>
+<w:tblpPr w:leftFromText="180" w:rightFromText="180" w:vertAnchor="text" w:horzAnchor="margin" w:tblpY="1232"/>
+<w:tblW w:w="0" w:type="auto"/>
+<w:tblBorders>
+<w:top w:val="single" w:sz="4" w:space="0" w:color="B4C6E7"/>
+<w:left w:val="single" w:sz="4" w:space="0" w:color="B4C6E7"/>
+<w:bottom w:val="single" w:sz="4" w:space="0" w:color="B4C6E7"/>
+<w:right w:val="single" w:sz="4" w:space="0" w:color="B4C6E7"/>
+<w:insideH w:val="single" w:sz="4" w:space="0" w:color="B4C6E7"/>
+<w:insideV w:val="single" w:sz="4" w:space="0" w:color="B4C6E7"/>
+</w:tblBorders>
+<w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+</w:tblPr>
+<w:tblGrid>
+<w:gridCol w:w="1659"/>
+<w:gridCol w:w="1659"/>
+<w:gridCol w:w="1355"/>
+<w:gridCol w:w="1963"/>
+<w:gridCol w:w="1660"/>
+</w:tblGrid>
+
+<w:tr w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidTr="001C07E5">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="4673" w:type="dxa"/>
+<w:gridSpan w:val="3"/>
+<w:tcBorders>
+<w:bottom w:val="single" w:sz="12" w:space="0" w:color="8EAADB"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="007832AA" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>1-表名name</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="3623" w:type="dxa"/>
+<w:gridSpan w:val="2"/>
+<w:tcBorders>
+<w:bottom w:val="single" w:sz="12" w:space="0" w:color="8EAADB"/>
+</w:tcBorders>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="007832AA" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>描述</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+
+
+<w:tr w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidTr="001C07E5">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1659" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00F51CD4">
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+<w:t>字段名</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1659" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:r w:rsidRPr="00F51CD4">
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+</w:rPr>
+<w:t>类型</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1355" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:r w:rsidRPr="00F51CD4">
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+</w:rPr>
+<w:t>长度</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1963" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:pPr>
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+</w:rPr>
+</w:pPr>
+<w:r w:rsidRPr="00F51CD4">
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+</w:rPr>
+<w:t>是否为空</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1660" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:r w:rsidRPr="00F51CD4">
+<w:rPr>
+<w:rFonts w:hint="eastAsia"/>
+</w:rPr>
+<w:t>注释</w:t>
+</w:r>
+</w:p>
+</w:tc>
+</w:tr>
+
+
+
+<w:tr w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidTr="001C07E5">
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1659" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:pPr>
+<w:rPr>
+<w:b/>
+<w:bCs/>
+</w:rPr>
+</w:pPr>
+<w:r>
+<w:t>列明1</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1659" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:r>
+<w:t>varchar2</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1355" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1963" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:r>
+<w:t>0</w:t>
+</w:r>
+</w:p>
+</w:tc>
+<w:tc>
+<w:tcPr>
+<w:tcW w:w="1660" w:type="dxa"/>
+<w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+</w:tcPr>
+<w:p w:rsidR="001C07E5" w:rsidRPr="00F51CD4" w:rsidRDefault="001C07E5" w:rsidP="001C07E5">
+<w:r>
+<w:t>
+Expression col.colDesc is undefined on line 259, column 8 in tables1.ftl.
+The problematic instruction:
+----------
+==> ${col.colDesc} [on line 259, column 6 in tables1.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression col.colDesc is undefined on line 259, column 8 in tables1.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:124)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:209)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:209)
+	at freemarker.core.IteratorBlock$Context.runLoop(IteratorBlock.java:179)
+	at freemarker.core.Environment.visit(Environment.java:416)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:102)
+	at freemarker.core.Environment.visit(Environment.java:209)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:209)
+	at freemarker.core.IteratorBlock$Context.runLoop(IteratorBlock.java:179)
+	at freemarker.core.Environment.visit(Environment.java:416)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:102)
+	at freemarker.core.Environment.visit(Environment.java:209)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:209)
+	at freemarker.core.Environment.process(Environment.java:189)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.cyb.utils.office.GenerERTableWordUtils.createWord(GenerERTableWordUtils.java:94)
+	at com.cyb.utils.office.GenerERTableWordUtils.main(GenerERTableWordUtils.java:39)

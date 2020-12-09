@@ -1,0 +1,2 @@
+20-Mar-2020 16:26:32.961 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/404]
+20-Mar-2020 16:26:33.029 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/404] has finished in [68] ms

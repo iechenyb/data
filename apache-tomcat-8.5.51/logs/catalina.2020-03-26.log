@@ -1,0 +1,18 @@
+26-Mar-2020 16:05:08.268 INFO [Thread-12] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:430)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:502)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.Nio2Endpoint$SocketProcessor.doRun(Nio2Endpoint.java:1630)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.net.AbstractEndpoint.processSocket(AbstractEndpoint.java:1082)
+		at org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$2.completed(Nio2Endpoint.java:566)
+		at org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$2.completed(Nio2Endpoint.java:544)
+		at sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:126)
+		at sun.nio.ch.Invoker$2.run(Invoker.java:218)
+		at sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:112)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+		at java.lang.Thread.run(Thread.java:745)

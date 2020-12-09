@@ -1,0 +1,397 @@
+28-Mar-2020 09:29:19.695 INFO [Thread-9] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio2-7000"]
+28-Mar-2020 09:29:19.696 INFO [Thread-9] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2020 09:29:19.732 INFO [localhost-startStop-2] org.hibernate.impl.SessionFactoryImpl.close closing
+28-Mar-2020 09:29:19.736 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ecBms] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Mar-2020 09:29:19.736 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ecBms] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+28-Mar-2020 09:29:19.736 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ecBms] appears to have started a thread named [oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser.run(BlockSource.java:327)
+28-Mar-2020 09:29:19.754 INFO [Thread-9] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio2-7000"]
+28-Mar-2020 09:29:19.757 INFO [Thread-9] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio2-7000"]
+28-Mar-2020 11:12:38.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+28-Mar-2020 11:12:38.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+28-Mar-2020 11:12:38.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+28-Mar-2020 11:12:38.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Mar-2020 11:12:38.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-696.el6.x86_64
+28-Mar-2020 11:12:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Mar-2020 11:12:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.7.0_80/jre
+28-Mar-2020 11:12:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+28-Mar-2020 11:12:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2020 11:12:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/trade/apache-tomcat-8.5.51
+28-Mar-2020 11:12:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/trade/apache-tomcat-8.5.51
+28-Mar-2020 11:12:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/trade/apache-tomcat-8.5.51/conf/logging.properties
+28-Mar-2020 11:12:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2020 11:12:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2020 11:12:38.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2020 11:12:38.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2020 11:12:38.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms2048m
+28-Mar-2020 11:12:38.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+28-Mar-2020 11:12:38.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512m
+28-Mar-2020 11:12:38.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=300m
+28-Mar-2020 11:12:38.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2020 11:12:38.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/trade/apache-tomcat-8.5.51
+28-Mar-2020 11:12:38.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/trade/apache-tomcat-8.5.51
+28-Mar-2020 11:12:38.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/trade/apache-tomcat-8.5.51/temp
+28-Mar-2020 11:12:38.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+28-Mar-2020 11:12:38.869 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio2-7000"]
+28-Mar-2020 11:12:38.875 WARNING [main] org.apache.tomcat.util.net.Nio2Endpoint.bind The NIO2 connector requires an exclusive executor to operate properly on shutdown
+28-Mar-2020 11:12:38.937 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1254 ms
+28-Mar-2020 11:12:39.016 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2020 11:12:39.016 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+28-Mar-2020 11:12:39.198 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/trade/apache-tomcat-8.5.51/webapps/ecBms.war]
+28-Mar-2020 11:12:43.219 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2020 11:12:45.156 INFO [localhost-startStop-1] org.hibernate.annotations.common.Version.<clinit> Hibernate Commons Annotations 3.2.0.Final
+28-Mar-2020 11:12:45.161 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.<clinit> Hibernate 3.6.2.Final
+28-Mar-2020 11:12:45.162 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.<clinit> hibernate.properties not found
+28-Mar-2020 11:12:45.175 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.buildBytecodeProvider Bytecode provider name : javassist
+28-Mar-2020 11:12:45.177 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.<clinit> using JDK 1.4 java.sql.Timestamp handling
+28-Mar-2020 11:12:45.308 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbDepartment
+28-Mar-2020 11:12:45.360 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbDepartment on table tb_department
+28-Mar-2020 11:12:45.397 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbRole
+28-Mar-2020 11:12:45.397 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbRole on table tb_role
+28-Mar-2020 11:12:45.399 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.ro.TbRoleFunction
+28-Mar-2020 11:12:45.399 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.ro.TbRoleFunction on table tb_role_function
+28-Mar-2020 11:12:45.408 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.ro.TbDepartmentEmployee
+28-Mar-2020 11:12:45.410 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.ro.TbDepartmentEmployee on table tb_department_employee
+28-Mar-2020 11:12:45.414 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.ro.TbEmployeeRole
+28-Mar-2020 11:12:45.414 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.ro.TbEmployeeRole on table tb_employee_role
+28-Mar-2020 11:12:45.416 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbEmployee
+28-Mar-2020 11:12:45.416 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbEmployee on table tb_employee
+28-Mar-2020 11:12:45.423 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbFunction
+28-Mar-2020 11:12:45.423 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbFunction on table tb_function
+28-Mar-2020 11:12:45.425 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.log.TbLog
+28-Mar-2020 11:12:45.426 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.log.TbLog on table tb_log
+28-Mar-2020 11:12:45.428 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.user.TbAdmin
+28-Mar-2020 11:12:45.428 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.user.TbAdmin on table tb_admin
+28-Mar-2020 11:12:45.436 INFO [localhost-startStop-1] org.hibernate.cfg.Configuration.applyHibernateValidatorLegacyConstraintsOnDDL Hibernate Validator not found: ignoring
+28-Mar-2020 11:12:45.442 INFO [localhost-startStop-1] org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+28-Mar-2020 11:12:45.466 WARNING [localhost-startStop-1] org.hibernate.mapping.RootClass.checkCompositeIdentifier composite-id class does not override equals(): com.kiiik.bms.model.auth.ro.TbRoleFunction$Id
+28-Mar-2020 11:12:45.467 WARNING [localhost-startStop-1] org.hibernate.mapping.RootClass.checkCompositeIdentifier composite-id class does not override hashCode(): com.kiiik.bms.model.auth.ro.TbRoleFunction$Id
+28-Mar-2020 11:12:45.469 INFO [localhost-startStop-1] org.hibernate.connection.ConnectionProviderFactory.initializeConnectionProviderFromConfig Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+28-Mar-2020 11:12:45.827 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Database ->
+       name : Oracle
+    version : Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+      major : 11
+      minor : 2
+28-Mar-2020 11:12:45.827 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Driver ->
+       name : Oracle JDBC driver
+    version : 12.1.0.1.0
+      major : 12
+      minor : 1
+28-Mar-2020 11:12:45.962 INFO [localhost-startStop-1] org.hibernate.dialect.Dialect.<init> Using dialect: org.hibernate.dialect.OracleDialect
+28-Mar-2020 11:12:45.968 WARNING [localhost-startStop-1] org.hibernate.dialect.Oracle9Dialect.<init> The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+28-Mar-2020 11:12:45.970 WARNING [localhost-startStop-1] org.hibernate.dialect.OracleDialect.<init> The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+28-Mar-2020 11:12:45.974 INFO [localhost-startStop-1] org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+28-Mar-2020 11:12:45.975 INFO [localhost-startStop-1] org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+28-Mar-2020 11:12:45.975 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Automatic flush during beforeCompletion(): disabled
+28-Mar-2020 11:12:45.976 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Automatic session close at end of transaction: disabled
+28-Mar-2020 11:12:45.976 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JDBC batch size: 15
+28-Mar-2020 11:12:45.976 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JDBC batch updates for versioned data: disabled
+28-Mar-2020 11:12:45.976 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Scrollable result sets: enabled
+28-Mar-2020 11:12:45.976 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JDBC3 getGeneratedKeys(): disabled
+28-Mar-2020 11:12:45.977 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Connection release mode: after_statement
+28-Mar-2020 11:12:45.977 WARNING [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Overriding release mode as connection provider does not support 'after_statement'
+28-Mar-2020 11:12:45.977 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Default batch fetch size: 1
+28-Mar-2020 11:12:45.978 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Generate SQL with comments: enabled
+28-Mar-2020 11:12:45.978 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Order SQL updates by primary key: disabled
+28-Mar-2020 11:12:45.978 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Order SQL inserts for batching: disabled
+28-Mar-2020 11:12:45.978 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+28-Mar-2020 11:12:46.027 INFO [localhost-startStop-1] org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init> Using ASTQueryTranslatorFactory
+28-Mar-2020 11:12:46.027 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Query language substitutions: {}
+28-Mar-2020 11:12:46.027 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JPA-QL strict compliance: disabled
+28-Mar-2020 11:12:46.028 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Second-level cache: enabled
+28-Mar-2020 11:12:46.028 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Query cache: disabled
+28-Mar-2020 11:12:46.028 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.createRegionFactory Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+28-Mar-2020 11:12:46.029 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Optimize cache for minimal puts: disabled
+28-Mar-2020 11:12:46.029 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Structured second-level cache entries: disabled
+28-Mar-2020 11:12:46.032 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Statistics: disabled
+28-Mar-2020 11:12:46.032 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Deleted entity synthetic identifier rollback: disabled
+28-Mar-2020 11:12:46.032 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Default entity-mode: pojo
+28-Mar-2020 11:12:46.032 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Named query checking : enabled
+28-Mar-2020 11:12:46.032 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+28-Mar-2020 11:12:46.047 INFO [localhost-startStop-1] org.hibernate.impl.SessionFactoryImpl.<init> building session factory
+28-Mar-2020 11:12:46.051 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@220959c9
+28-Mar-2020 11:12:46.051 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@13e5ac94
+28-Mar-2020 11:12:46.051 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [blob] overrides previous : org.hibernate.type.BlobType@4ba532c0
+28-Mar-2020 11:12:46.051 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@4ba532c0
+28-Mar-2020 11:12:46.051 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@4aa7020c
+28-Mar-2020 11:12:46.052 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@1a77881e
+28-Mar-2020 11:12:46.052 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@1d897725
+28-Mar-2020 11:12:46.052 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [clob] overrides previous : org.hibernate.type.ClobType@2bed2d49
+28-Mar-2020 11:12:46.052 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@2bed2d49
+28-Mar-2020 11:12:46.262 INFO [localhost-startStop-1] org.hibernate.impl.SessionFactoryObjectFactory.addInstance Not binding factory to JNDI, no JNDI name configured
+28-Mar-2020 11:12:48.789 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/trade/apache-tomcat-8.5.51/webapps/ecBms.war] has finished in [9,590] ms
+28-Mar-2020 11:12:48.790 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/host-manager]
+28-Mar-2020 11:12:48.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/host-manager] has finished in [49] ms
+28-Mar-2020 11:12:48.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/ROOT]
+28-Mar-2020 11:12:48.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/ROOT] has finished in [95] ms
+28-Mar-2020 11:12:48.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/manager]
+28-Mar-2020 11:12:49.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/manager] has finished in [85] ms
+28-Mar-2020 11:12:49.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/404]
+28-Mar-2020 11:12:49.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/404] has finished in [35] ms
+28-Mar-2020 11:12:49.082 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio2-7000"]
+28-Mar-2020 11:12:49.083 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 10145 ms
+28-Mar-2020 14:19:02.213 WARNING [Thread-4] org.hibernate.jdbc.AbstractBatcher.closeQueryStatement exception clearing maxRows/queryTimeout
+	java.sql.SQLRecoverableException: Closed Connection
+		at oracle.jdbc.driver.OracleStatement.ensureOpen(OracleStatement.java:4296)
+		at oracle.jdbc.driver.OracleStatement.getMaxRows(OracleStatement.java:3109)
+		at oracle.jdbc.driver.OracleStatementWrapper.getMaxRows(OracleStatementWrapper.java:164)
+		at org.apache.commons.dbcp.DelegatingStatement.getMaxRows(DelegatingStatement.java:237)
+		at org.apache.commons.dbcp.DelegatingStatement.getMaxRows(DelegatingStatement.java:237)
+		at org.hibernate.jdbc.AbstractBatcher.closeQueryStatement(AbstractBatcher.java:298)
+		at org.hibernate.jdbc.AbstractBatcher.closeQueryStatement(AbstractBatcher.java:234)
+		at org.hibernate.loader.Loader.getResultSet(Loader.java:1967)
+		at org.hibernate.loader.Loader.doQuery(Loader.java:802)
+		at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:274)
+		at org.hibernate.loader.Loader.doList(Loader.java:2533)
+		at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2276)
+		at org.hibernate.loader.Loader.list(Loader.java:2271)
+		at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:452)
+		at org.hibernate.hql.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:363)
+		at org.hibernate.engine.query.HQLQueryPlan.performList(HQLQueryPlan.java:196)
+		at org.hibernate.impl.SessionImpl.list(SessionImpl.java:1268)
+		at org.hibernate.impl.QueryImpl.list(QueryImpl.java:102)
+		at com.kiiik.bms.dao.BaseDao.find(BaseDao.java:127)
+		at com.kiiik.bms.service.DepartmentService.listDepartmentNames(DepartmentService.java:204)
+		at com.kiiik.bms.service.DepartmentService$$FastClassByCGLIB$$7be59816.invoke(<generated>)
+		at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+		at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+		at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+		at com.kiiik.bms.service.DepartmentService$$EnhancerByCGLIB$$274f9d54.listDepartmentNames(<generated>)
+		at com.kiiik.bms.action.DepartmentAction.listDepartmentNames(DepartmentAction.java:49)
+		at com.kiiik.bms.action.DepartmentAction$$FastClassByCGLIB$$5ffd82c.invoke(<generated>)
+		at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+		at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+		at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+		at com.kiiik.bms.action.DepartmentAction$$EnhancerByCGLIB$$9023097f.listDepartmentNames(<generated>)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:606)
+		at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:213)
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:126)
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:96)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:617)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:578)
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+		at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+		at com.kiiik.bms.filter.EncodingFilter.doFilterInternal(EncodingFilter.java:30)
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.Nio2Endpoint$SocketProcessor.doRun(Nio2Endpoint.java:1630)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.net.AbstractEndpoint.processSocket(AbstractEndpoint.java:1082)
+		at org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$2.completed(Nio2Endpoint.java:566)
+		at org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$2.completed(Nio2Endpoint.java:544)
+		at sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:126)
+		at sun.nio.ch.UnixAsynchronousSocketChannelImpl.finishRead(UnixAsynchronousSocketChannelImpl.java:430)
+		at sun.nio.ch.UnixAsynchronousSocketChannelImpl.finish(UnixAsynchronousSocketChannelImpl.java:191)
+		at sun.nio.ch.UnixAsynchronousSocketChannelImpl.onEvent(UnixAsynchronousSocketChannelImpl.java:213)
+		at sun.nio.ch.EPollPort$EventHandlerTask.run(EPollPort.java:293)
+		at sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:112)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+		at java.lang.Thread.run(Thread.java:745)
+28-Mar-2020 14:19:02.215 WARNING [Thread-4] org.hibernate.util.JDBCExceptionReporter.logExceptions SQL Error: 17008, SQLState: 08003
+28-Mar-2020 14:19:02.216 SEVERE [Thread-4] org.hibernate.util.JDBCExceptionReporter.logExceptions Closed Connection
+28-Mar-2020 14:19:02.217 SEVERE [Thread-4] org.hibernate.transaction.JDBCTransaction.toggleAutoCommit Could not toggle autocommit
+	java.sql.SQLRecoverableException: Closed Connection
+		at oracle.jdbc.driver.PhysicalConnection.setAutoCommit(PhysicalConnection.java:4311)
+		at org.apache.commons.dbcp.DelegatingConnection.setAutoCommit(DelegatingConnection.java:371)
+		at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.setAutoCommit(PoolingDataSource.java:328)
+		at org.hibernate.transaction.JDBCTransaction.toggleAutoCommit(JDBCTransaction.java:224)
+		at org.hibernate.transaction.JDBCTransaction.rollbackAndResetAutoCommit(JDBCTransaction.java:216)
+		at org.hibernate.transaction.JDBCTransaction.rollback(JDBCTransaction.java:192)
+		at org.springframework.orm.hibernate3.HibernateTransactionManager.doRollback(HibernateTransactionManager.java:676)
+		at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:845)
+		at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:822)
+		at org.springframework.transaction.interceptor.TransactionAspectSupport.completeTransactionAfterThrowing(TransactionAspectSupport.java:411)
+		at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:114)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+		at com.kiiik.bms.service.DepartmentService$$EnhancerByCGLIB$$274f9d54.listDepartmentNames(<generated>)
+		at com.kiiik.bms.action.DepartmentAction.listDepartmentNames(DepartmentAction.java:49)
+		at com.kiiik.bms.action.DepartmentAction$$FastClassByCGLIB$$5ffd82c.invoke(<generated>)
+		at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+		at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+		at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+		at com.kiiik.bms.action.DepartmentAction$$EnhancerByCGLIB$$9023097f.listDepartmentNames(<generated>)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:606)
+		at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:213)
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:126)
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:96)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:617)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:578)
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+		at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+		at com.kiiik.bms.filter.EncodingFilter.doFilterInternal(EncodingFilter.java:30)
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.Nio2Endpoint$SocketProcessor.doRun(Nio2Endpoint.java:1630)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.net.AbstractEndpoint.processSocket(AbstractEndpoint.java:1082)
+		at org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$2.completed(Nio2Endpoint.java:566)
+		at org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$2.completed(Nio2Endpoint.java:544)
+		at sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:126)
+		at sun.nio.ch.UnixAsynchronousSocketChannelImpl.finishRead(UnixAsynchronousSocketChannelImpl.java:430)
+		at sun.nio.ch.UnixAsynchronousSocketChannelImpl.finish(UnixAsynchronousSocketChannelImpl.java:191)
+		at sun.nio.ch.UnixAsynchronousSocketChannelImpl.onEvent(UnixAsynchronousSocketChannelImpl.java:213)
+		at sun.nio.ch.EPollPort$EventHandlerTask.run(EPollPort.java:293)
+		at sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:112)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+		at java.lang.Thread.run(Thread.java:745)
+28-Mar-2020 14:19:02.218 SEVERE [Thread-4] org.hibernate.transaction.JDBCTransaction.rollback JDBC rollback failed
+	java.sql.SQLRecoverableException: Closed Connection
+		at oracle.jdbc.driver.PhysicalConnection.getAutoCommit(PhysicalConnection.java:4333)
+		at oracle.jdbc.driver.PhysicalConnection.rollback(PhysicalConnection.java:4503)
+		at org.apache.commons.dbcp.DelegatingConnection.rollback(DelegatingConnection.java:368)
+		at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.rollback(PoolingDataSource.java:323)
+		at org.hibernate.transaction.JDBCTransaction.rollbackAndResetAutoCommit(JDBCTransaction.java:213)
+		at org.hibernate.transaction.JDBCTransaction.rollback(JDBCTransaction.java:192)
+		at org.springframework.orm.hibernate3.HibernateTransactionManager.doRollback(HibernateTransactionManager.java:676)
+		at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:845)
+		at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:822)
+		at org.springframework.transaction.interceptor.TransactionAspectSupport.completeTransactionAfterThrowing(TransactionAspectSupport.java:411)
+		at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:114)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+		at com.kiiik.bms.service.DepartmentService$$EnhancerByCGLIB$$274f9d54.listDepartmentNames(<generated>)
+		at com.kiiik.bms.action.DepartmentAction.listDepartmentNames(DepartmentAction.java:49)
+		at com.kiiik.bms.action.DepartmentAction$$FastClassByCGLIB$$5ffd82c.invoke(<generated>)
+		at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+		at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+		at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+		at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+		at com.kiiik.bms.action.DepartmentAction$$EnhancerByCGLIB$$9023097f.listDepartmentNames(<generated>)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:606)
+		at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:213)
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:126)
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:96)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:617)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:578)
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+		at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+		at com.kiiik.bms.filter.EncodingFilter.doFilterInternal(EncodingFilter.java:30)
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:609)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.Nio2Endpoint$SocketProcessor.doRun(Nio2Endpoint.java:1630)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.net.AbstractEndpoint.processSocket(AbstractEndpoint.java:1082)
+		at org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$2.completed(Nio2Endpoint.java:566)
+		at org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$2.completed(Nio2Endpoint.java:544)
+		at sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:126)
+		at sun.nio.ch.UnixAsynchronousSocketChannelImpl.finishRead(UnixAsynchronousSocketChannelImpl.java:430)
+		at sun.nio.ch.UnixAsynchronousSocketChannelImpl.finish(UnixAsynchronousSocketChannelImpl.java:191)
+		at sun.nio.ch.UnixAsynchronousSocketChannelImpl.onEvent(UnixAsynchronousSocketChannelImpl.java:213)
+		at sun.nio.ch.EPollPort$EventHandlerTask.run(EPollPort.java:293)
+		at sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:112)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+		at java.lang.Thread.run(Thread.java:745)
+28-Mar-2020 14:19:02.219 WARNING [Thread-4] org.hibernate.util.JDBCExceptionReporter.logExceptions SQL Error: 0, SQLState: null
+28-Mar-2020 14:19:02.219 SEVERE [Thread-4] org.hibernate.util.JDBCExceptionReporter.logExceptions Already closed.
+28-Mar-2020 14:19:02.219 WARNING [Thread-4] org.hibernate.util.JDBCExceptionReporter.logExceptions SQL Error: 0, SQLState: null
+28-Mar-2020 14:19:02.219 SEVERE [Thread-4] org.hibernate.util.JDBCExceptionReporter.logExceptions Already closed.

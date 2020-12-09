@@ -5,7 +5,7 @@ var comm_list=
   {
     slug: "common",
     list: [
-      {
+	{
         tag: "热门",
         link: [
           {
@@ -17,24 +17,90 @@ var comm_list=
             url: "http://www.bejson.com/network/profession_request_tools/"
           },
           {
-            name: "必应",
-            url: "https://cn.bing.com/"
+            name: "autowebdriver",
+            url: "https://npm.taobao.org/mirrors/chromedriver/87.0.4280.20/"
           },
           {
-            name: "搜狗",
-            url: "https://www.sogou.com/"
+            name: "豁免特定品种",
+            url: "https://m.cesfutures.com/kiiikweixin/vo.do?method=getProcessByFundAccount&fund_account=8776706"
           },
           {
-            name: "今日头条",
-            url: "https://www.toutiao.com/"
+            name: "入金统计",
+            url: "http://zuul.cesfutures.com:8000/report/company/openAccountStatics?start=20140101&end=20201131"
           },
           {
-            name: "煎蛋",
-            url: "https://jandan.net/"
+            name: "松江民办学校",
+            url: "http://sh.bendibao.com/news/2018227/190663_2.shtm"
           },
           {
-            name: "数字尾巴",
-            url: "http://www.dgtle.com/"
+            name: "上海入园登记",
+            url: "https://rydjywt.edu.sh.cn/"
+          }
+        ]
+      },
+	  {
+		tag: "工具",
+        link: [
+          {
+            name: "时间戳",
+            url: "https://tool.lu/timestamp/"
+          },
+          {
+            name: "恒生售后",
+            url: "https://service.hundsun.com/front/liveList"
+          },
+          {
+            name: "URLEncode",
+            url: "http://www.bejson.com/enc/urlencode/"
+          },
+          {
+            name: "Jsonview",
+            url: "http://www.bejson.com/jsonviewernew/"
+          },
+          {
+            name: "Json2Java",
+            url: "http://www.bejson.com/json2javapojo/new/"
+          },
+          {
+            name: "MD5加密",
+            url: "http://www.bejson.com/json2javapojo/new/"
+          },
+          {
+            name: "上海入园登记",
+            url: "https://rydjywt.edu.sh.cn/"
+          }
+        ]
+      },
+      {
+        tag: "报表",
+        link: [
+          {
+            name: "疫情地图",
+            url: "http://activity.10jqka.com.cn/acmake/cache/858.html#/index"
+          },
+          {
+            name: "BJSON工具箱",
+            url: "http://www.bejson.com/network/profession_request_tools/"
+          },
+          {
+            name: "豁免权限选择",
+            url: "无法通过接口直接查看，有前置逻辑"
+          },
+          {
+            name: "豁免特定品种",
+            url: "https://m.cesfutures.com/kiiikweixin/vo.do?method=getProcessByFundAccount&fund_account=8776706"
+          },
+          {
+            name: "入金统计",
+            url: "http://zuul.cesfutures.com:8000/report/company/openAccountStatics?start=20140101&end=20201131"
+          },
+          {
+            name: "松江民办学校",
+            url: "http://sh.bendibao.com/news/2018227/190663_2.shtm"
+          },
+          {
+            name: "上海入园登记",
+            url: "https://rydjywt.edu.sh.cn/"
           }
         ]
       },

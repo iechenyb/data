@@ -1,0 +1,5 @@
+select ca.client_id||'_'|| ca.fund_account||'_'||to_char(p.proc_date,'yyyymmdd')||'_' from tb_client_account  ca,
+--,tb_client_account_proc p 
+(select max(proc_date) proc_Date ,p.client_account_id from tb_client_account_proc p  group by p.client_account_id) p
+where p.client_account_id=ca.client_account_id and
+ca.fund_account in ('8777816','8777738','8101387')

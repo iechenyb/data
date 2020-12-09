@@ -1,0 +1,266 @@
+24-Mar-2020 09:09:15.493 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Mar-2020 09:09:15.494 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio2-7000"]
+24-Mar-2020 09:09:15.496 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Mar-2020 09:09:15.565 INFO [localhost-startStop-5] org.hibernate.impl.SessionFactoryImpl.close closing
+24-Mar-2020 09:09:15.570 WARNING [localhost-startStop-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ecBms] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+24-Mar-2020 09:09:15.570 WARNING [localhost-startStop-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ecBms] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+24-Mar-2020 09:09:15.571 WARNING [localhost-startStop-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ecBms] appears to have started a thread named [oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser.run(BlockSource.java:327)
+24-Mar-2020 09:09:15.589 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio2-7000"]
+24-Mar-2020 09:09:15.590 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio2-7000"]
+24-Mar-2020 09:09:21.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+24-Mar-2020 09:09:21.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+24-Mar-2020 09:09:21.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+24-Mar-2020 09:09:21.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Mar-2020 09:09:21.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-696.el6.x86_64
+24-Mar-2020 09:09:21.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Mar-2020 09:09:21.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.7.0_80/jre
+24-Mar-2020 09:09:21.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+24-Mar-2020 09:09:21.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Mar-2020 09:09:21.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/trade/apache-tomcat-8.5.51
+24-Mar-2020 09:09:21.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/trade/apache-tomcat-8.5.51
+24-Mar-2020 09:09:21.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/trade/apache-tomcat-8.5.51/conf/logging.properties
+24-Mar-2020 09:09:21.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2020 09:09:21.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2020 09:09:21.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2020 09:09:21.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Mar-2020 09:09:21.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms2048m
+24-Mar-2020 09:09:21.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+24-Mar-2020 09:09:21.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512m
+24-Mar-2020 09:09:21.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=300m
+24-Mar-2020 09:09:21.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Mar-2020 09:09:21.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/trade/apache-tomcat-8.5.51
+24-Mar-2020 09:09:21.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/trade/apache-tomcat-8.5.51
+24-Mar-2020 09:09:21.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/trade/apache-tomcat-8.5.51/temp
+24-Mar-2020 09:09:21.048 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Mar-2020 09:09:21.210 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio2-7000"]
+24-Mar-2020 09:09:21.225 WARNING [main] org.apache.tomcat.util.net.Nio2Endpoint.bind The NIO2 connector requires an exclusive executor to operate properly on shutdown
+24-Mar-2020 09:09:21.284 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 997 ms
+24-Mar-2020 09:09:21.345 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Mar-2020 09:09:21.348 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+24-Mar-2020 09:09:21.380 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/trade/apache-tomcat-8.5.51/webapps/ecBms.war]
+24-Mar-2020 09:09:25.218 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2020 09:09:28.500 INFO [localhost-startStop-1] org.hibernate.annotations.common.Version.<clinit> Hibernate Commons Annotations 3.2.0.Final
+24-Mar-2020 09:09:28.504 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.<clinit> Hibernate 3.6.2.Final
+24-Mar-2020 09:09:28.505 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.<clinit> hibernate.properties not found
+24-Mar-2020 09:09:28.507 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.buildBytecodeProvider Bytecode provider name : javassist
+24-Mar-2020 09:09:28.509 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.<clinit> using JDK 1.4 java.sql.Timestamp handling
+24-Mar-2020 09:09:28.591 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbDepartment
+24-Mar-2020 09:09:28.615 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbDepartment on table tb_department
+24-Mar-2020 09:09:28.658 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbRole
+24-Mar-2020 09:09:28.659 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbRole on table tb_role
+24-Mar-2020 09:09:28.660 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.ro.TbRoleFunction
+24-Mar-2020 09:09:28.660 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.ro.TbRoleFunction on table tb_role_function
+24-Mar-2020 09:09:28.664 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.ro.TbDepartmentEmployee
+24-Mar-2020 09:09:28.665 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.ro.TbDepartmentEmployee on table tb_department_employee
+24-Mar-2020 09:09:28.675 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.ro.TbEmployeeRole
+24-Mar-2020 09:09:28.675 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.ro.TbEmployeeRole on table tb_employee_role
+24-Mar-2020 09:09:28.677 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbEmployee
+24-Mar-2020 09:09:28.679 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbEmployee on table tb_employee
+24-Mar-2020 09:09:28.685 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbFunction
+24-Mar-2020 09:09:28.686 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbFunction on table tb_function
+24-Mar-2020 09:09:28.688 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.log.TbLog
+24-Mar-2020 09:09:28.688 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.log.TbLog on table tb_log
+24-Mar-2020 09:09:28.691 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.user.TbAdmin
+24-Mar-2020 09:09:28.691 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.user.TbAdmin on table tb_admin
+24-Mar-2020 09:09:28.697 INFO [localhost-startStop-1] org.hibernate.cfg.Configuration.applyHibernateValidatorLegacyConstraintsOnDDL Hibernate Validator not found: ignoring
+24-Mar-2020 09:09:28.703 INFO [localhost-startStop-1] org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+24-Mar-2020 09:09:28.718 WARNING [localhost-startStop-1] org.hibernate.mapping.RootClass.checkCompositeIdentifier composite-id class does not override equals(): com.kiiik.bms.model.auth.ro.TbRoleFunction$Id
+24-Mar-2020 09:09:28.718 WARNING [localhost-startStop-1] org.hibernate.mapping.RootClass.checkCompositeIdentifier composite-id class does not override hashCode(): com.kiiik.bms.model.auth.ro.TbRoleFunction$Id
+24-Mar-2020 09:09:28.720 INFO [localhost-startStop-1] org.hibernate.connection.ConnectionProviderFactory.initializeConnectionProviderFromConfig Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+24-Mar-2020 09:09:29.032 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Database ->
+       name : Oracle
+    version : Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+      major : 11
+      minor : 2
+24-Mar-2020 09:09:29.033 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Driver ->
+       name : Oracle JDBC driver
+    version : 12.1.0.1.0
+      major : 12
+      minor : 1
+24-Mar-2020 09:09:29.048 INFO [localhost-startStop-1] org.hibernate.dialect.Dialect.<init> Using dialect: org.hibernate.dialect.OracleDialect
+24-Mar-2020 09:09:29.054 WARNING [localhost-startStop-1] org.hibernate.dialect.Oracle9Dialect.<init> The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+24-Mar-2020 09:09:29.055 WARNING [localhost-startStop-1] org.hibernate.dialect.OracleDialect.<init> The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+24-Mar-2020 09:09:29.059 INFO [localhost-startStop-1] org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+24-Mar-2020 09:09:29.060 INFO [localhost-startStop-1] org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+24-Mar-2020 09:09:29.061 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Automatic flush during beforeCompletion(): disabled
+24-Mar-2020 09:09:29.061 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Automatic session close at end of transaction: disabled
+24-Mar-2020 09:09:29.061 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JDBC batch size: 15
+24-Mar-2020 09:09:29.061 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JDBC batch updates for versioned data: disabled
+24-Mar-2020 09:09:29.062 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Scrollable result sets: enabled
+24-Mar-2020 09:09:29.062 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JDBC3 getGeneratedKeys(): disabled
+24-Mar-2020 09:09:29.062 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Connection release mode: after_statement
+24-Mar-2020 09:09:29.067 WARNING [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Overriding release mode as connection provider does not support 'after_statement'
+24-Mar-2020 09:09:29.067 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Default batch fetch size: 1
+24-Mar-2020 09:09:29.068 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Generate SQL with comments: enabled
+24-Mar-2020 09:09:29.068 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Order SQL updates by primary key: disabled
+24-Mar-2020 09:09:29.068 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Order SQL inserts for batching: disabled
+24-Mar-2020 09:09:29.068 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+24-Mar-2020 09:09:29.070 INFO [localhost-startStop-1] org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init> Using ASTQueryTranslatorFactory
+24-Mar-2020 09:09:29.070 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Query language substitutions: {}
+24-Mar-2020 09:09:29.070 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JPA-QL strict compliance: disabled
+24-Mar-2020 09:09:29.070 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Second-level cache: enabled
+24-Mar-2020 09:09:29.070 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Query cache: disabled
+24-Mar-2020 09:09:29.071 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.createRegionFactory Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+24-Mar-2020 09:09:29.071 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Optimize cache for minimal puts: disabled
+24-Mar-2020 09:09:29.072 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Structured second-level cache entries: disabled
+24-Mar-2020 09:09:29.075 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Statistics: disabled
+24-Mar-2020 09:09:29.075 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Deleted entity synthetic identifier rollback: disabled
+24-Mar-2020 09:09:29.075 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Default entity-mode: pojo
+24-Mar-2020 09:09:29.075 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Named query checking : enabled
+24-Mar-2020 09:09:29.076 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+24-Mar-2020 09:09:29.098 INFO [localhost-startStop-1] org.hibernate.impl.SessionFactoryImpl.<init> building session factory
+24-Mar-2020 09:09:29.101 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [clob] overrides previous : org.hibernate.type.ClobType@1b1451ed
+24-Mar-2020 09:09:29.102 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@1b1451ed
+24-Mar-2020 09:09:29.102 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@530eac7e
+24-Mar-2020 09:09:29.102 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@685eaecb
+24-Mar-2020 09:09:29.102 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@2025c6f5
+24-Mar-2020 09:09:29.103 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [blob] overrides previous : org.hibernate.type.BlobType@10290f50
+24-Mar-2020 09:09:29.103 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@10290f50
+24-Mar-2020 09:09:29.103 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@77ac5579
+24-Mar-2020 09:09:29.103 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@531fb850
+24-Mar-2020 09:09:29.289 INFO [localhost-startStop-1] org.hibernate.impl.SessionFactoryObjectFactory.addInstance Not binding factory to JNDI, no JNDI name configured
+24-Mar-2020 09:09:32.665 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/trade/apache-tomcat-8.5.51/webapps/ecBms.war] has finished in [11,285] ms
+24-Mar-2020 09:09:32.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/host-manager]
+24-Mar-2020 09:09:32.755 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/host-manager] has finished in [83] ms
+24-Mar-2020 09:09:32.756 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/ROOT]
+24-Mar-2020 09:09:32.801 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/ROOT] has finished in [45] ms
+24-Mar-2020 09:09:32.802 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/manager]
+24-Mar-2020 09:09:32.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/manager] has finished in [52] ms
+24-Mar-2020 09:09:32.858 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/404]
+24-Mar-2020 09:09:32.891 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/404] has finished in [32] ms
+24-Mar-2020 09:09:33.011 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio2-7000"]
+24-Mar-2020 09:09:33.016 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 11731 ms
+24-Mar-2020 16:00:46.726 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Mar-2020 16:00:46.726 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio2-7000"]
+24-Mar-2020 16:00:46.728 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Mar-2020 16:00:46.769 INFO [localhost-startStop-2] org.hibernate.impl.SessionFactoryImpl.close closing
+24-Mar-2020 16:01:14.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.51
+24-Mar-2020 16:01:14.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 22:26:25 UTC
+24-Mar-2020 16:01:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.51.0
+24-Mar-2020 16:01:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Mar-2020 16:01:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-696.el6.x86_64
+24-Mar-2020 16:01:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Mar-2020 16:01:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.7.0_80/jre
+24-Mar-2020 16:01:14.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+24-Mar-2020 16:01:14.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Mar-2020 16:01:14.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/trade/apache-tomcat-8.5.51
+24-Mar-2020 16:01:14.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/trade/apache-tomcat-8.5.51
+24-Mar-2020 16:01:14.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/trade/apache-tomcat-8.5.51/conf/logging.properties
+24-Mar-2020 16:01:14.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2020 16:01:14.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2020 16:01:14.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2020 16:01:14.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Mar-2020 16:01:14.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms2048m
+24-Mar-2020 16:01:14.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+24-Mar-2020 16:01:14.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512m
+24-Mar-2020 16:01:14.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=300m
+24-Mar-2020 16:01:14.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Mar-2020 16:01:14.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/trade/apache-tomcat-8.5.51
+24-Mar-2020 16:01:14.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/trade/apache-tomcat-8.5.51
+24-Mar-2020 16:01:14.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/trade/apache-tomcat-8.5.51/temp
+24-Mar-2020 16:01:14.877 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Mar-2020 16:01:15.035 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio2-7000"]
+24-Mar-2020 16:01:15.049 WARNING [main] org.apache.tomcat.util.net.Nio2Endpoint.bind The NIO2 connector requires an exclusive executor to operate properly on shutdown
+24-Mar-2020 16:01:15.114 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1004 ms
+24-Mar-2020 16:01:15.181 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Mar-2020 16:01:15.181 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.51
+24-Mar-2020 16:01:15.213 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/trade/apache-tomcat-8.5.51/webapps/ecBms.war]
+24-Mar-2020 16:01:19.065 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2020 16:01:22.371 INFO [localhost-startStop-1] org.hibernate.annotations.common.Version.<clinit> Hibernate Commons Annotations 3.2.0.Final
+24-Mar-2020 16:01:22.375 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.<clinit> Hibernate 3.6.2.Final
+24-Mar-2020 16:01:22.376 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.<clinit> hibernate.properties not found
+24-Mar-2020 16:01:22.378 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.buildBytecodeProvider Bytecode provider name : javassist
+24-Mar-2020 16:01:22.380 INFO [localhost-startStop-1] org.hibernate.cfg.Environment.<clinit> using JDK 1.4 java.sql.Timestamp handling
+24-Mar-2020 16:01:22.461 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbDepartment
+24-Mar-2020 16:01:22.484 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbDepartment on table tb_department
+24-Mar-2020 16:01:22.526 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbRole
+24-Mar-2020 16:01:22.526 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbRole on table tb_role
+24-Mar-2020 16:01:22.527 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.ro.TbRoleFunction
+24-Mar-2020 16:01:22.528 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.ro.TbRoleFunction on table tb_role_function
+24-Mar-2020 16:01:22.532 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.ro.TbDepartmentEmployee
+24-Mar-2020 16:01:22.532 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.ro.TbDepartmentEmployee on table tb_department_employee
+24-Mar-2020 16:01:22.541 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.ro.TbEmployeeRole
+24-Mar-2020 16:01:22.541 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.ro.TbEmployeeRole on table tb_employee_role
+24-Mar-2020 16:01:22.544 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbEmployee
+24-Mar-2020 16:01:22.545 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbEmployee on table tb_employee
+24-Mar-2020 16:01:22.552 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.auth.TbFunction
+24-Mar-2020 16:01:22.552 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.auth.TbFunction on table tb_function
+24-Mar-2020 16:01:22.554 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.log.TbLog
+24-Mar-2020 16:01:22.554 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.log.TbLog on table tb_log
+24-Mar-2020 16:01:22.557 INFO [localhost-startStop-1] org.hibernate.cfg.AnnotationBinder.bindClass Binding entity from annotated class: com.kiiik.bms.model.user.TbAdmin
+24-Mar-2020 16:01:22.557 INFO [localhost-startStop-1] org.hibernate.cfg.annotations.EntityBinder.bindTable Bind entity com.kiiik.bms.model.user.TbAdmin on table tb_admin
+24-Mar-2020 16:01:22.564 INFO [localhost-startStop-1] org.hibernate.cfg.Configuration.applyHibernateValidatorLegacyConstraintsOnDDL Hibernate Validator not found: ignoring
+24-Mar-2020 16:01:22.569 INFO [localhost-startStop-1] org.hibernate.cfg.search.HibernateSearchEventListenerRegister.enableHibernateSearch Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+24-Mar-2020 16:01:22.584 WARNING [localhost-startStop-1] org.hibernate.mapping.RootClass.checkCompositeIdentifier composite-id class does not override equals(): com.kiiik.bms.model.auth.ro.TbRoleFunction$Id
+24-Mar-2020 16:01:22.584 WARNING [localhost-startStop-1] org.hibernate.mapping.RootClass.checkCompositeIdentifier composite-id class does not override hashCode(): com.kiiik.bms.model.auth.ro.TbRoleFunction$Id
+24-Mar-2020 16:01:22.586 INFO [localhost-startStop-1] org.hibernate.connection.ConnectionProviderFactory.initializeConnectionProviderFromConfig Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+24-Mar-2020 16:01:22.887 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Database ->
+       name : Oracle
+    version : Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+      major : 11
+      minor : 2
+24-Mar-2020 16:01:22.891 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Driver ->
+       name : Oracle JDBC driver
+    version : 12.1.0.1.0
+      major : 12
+      minor : 1
+24-Mar-2020 16:01:22.909 INFO [localhost-startStop-1] org.hibernate.dialect.Dialect.<init> Using dialect: org.hibernate.dialect.OracleDialect
+24-Mar-2020 16:01:22.915 WARNING [localhost-startStop-1] org.hibernate.dialect.Oracle9Dialect.<init> The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+24-Mar-2020 16:01:22.916 WARNING [localhost-startStop-1] org.hibernate.dialect.OracleDialect.<init> The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+24-Mar-2020 16:01:22.920 INFO [localhost-startStop-1] org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+24-Mar-2020 16:01:22.921 INFO [localhost-startStop-1] org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+24-Mar-2020 16:01:22.921 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Automatic flush during beforeCompletion(): disabled
+24-Mar-2020 16:01:22.922 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Automatic session close at end of transaction: disabled
+24-Mar-2020 16:01:22.922 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JDBC batch size: 15
+24-Mar-2020 16:01:22.922 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JDBC batch updates for versioned data: disabled
+24-Mar-2020 16:01:22.922 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Scrollable result sets: enabled
+24-Mar-2020 16:01:22.923 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JDBC3 getGeneratedKeys(): disabled
+24-Mar-2020 16:01:22.923 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Connection release mode: after_statement
+24-Mar-2020 16:01:22.924 WARNING [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Overriding release mode as connection provider does not support 'after_statement'
+24-Mar-2020 16:01:22.924 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Default batch fetch size: 1
+24-Mar-2020 16:01:22.924 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Generate SQL with comments: enabled
+24-Mar-2020 16:01:22.924 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Order SQL updates by primary key: disabled
+24-Mar-2020 16:01:22.924 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Order SQL inserts for batching: disabled
+24-Mar-2020 16:01:22.925 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+24-Mar-2020 16:01:22.926 INFO [localhost-startStop-1] org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init> Using ASTQueryTranslatorFactory
+24-Mar-2020 16:01:22.926 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Query language substitutions: {}
+24-Mar-2020 16:01:22.926 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings JPA-QL strict compliance: disabled
+24-Mar-2020 16:01:22.927 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Second-level cache: enabled
+24-Mar-2020 16:01:22.927 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Query cache: disabled
+24-Mar-2020 16:01:22.927 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.createRegionFactory Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+24-Mar-2020 16:01:22.928 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Optimize cache for minimal puts: disabled
+24-Mar-2020 16:01:22.928 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Structured second-level cache entries: disabled
+24-Mar-2020 16:01:22.931 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Statistics: disabled
+24-Mar-2020 16:01:22.931 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Deleted entity synthetic identifier rollback: disabled
+24-Mar-2020 16:01:22.931 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Default entity-mode: pojo
+24-Mar-2020 16:01:22.932 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Named query checking : enabled
+24-Mar-2020 16:01:22.932 INFO [localhost-startStop-1] org.hibernate.cfg.SettingsFactory.buildSettings Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+24-Mar-2020 16:01:22.955 INFO [localhost-startStop-1] org.hibernate.impl.SessionFactoryImpl.<init> building session factory
+24-Mar-2020 16:01:22.958 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [clob] overrides previous : org.hibernate.type.ClobType@1b1451ed
+24-Mar-2020 16:01:22.959 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@1b1451ed
+24-Mar-2020 16:01:22.959 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@530eac7e
+24-Mar-2020 16:01:22.959 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@685eaecb
+24-Mar-2020 16:01:22.959 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@2025c6f5
+24-Mar-2020 16:01:22.959 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [blob] overrides previous : org.hibernate.type.BlobType@10290f50
+24-Mar-2020 16:01:22.960 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@10290f50
+24-Mar-2020 16:01:22.960 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@77ac5579
+24-Mar-2020 16:01:22.960 INFO [localhost-startStop-1] org.hibernate.type.BasicTypeRegistry.register Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@531fb850
+24-Mar-2020 16:01:23.149 INFO [localhost-startStop-1] org.hibernate.impl.SessionFactoryObjectFactory.addInstance Not binding factory to JNDI, no JNDI name configured
+24-Mar-2020 16:01:26.379 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/trade/apache-tomcat-8.5.51/webapps/ecBms.war] has finished in [11,166] ms
+24-Mar-2020 16:01:26.380 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/host-manager]
+24-Mar-2020 16:01:26.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/host-manager] has finished in [82] ms
+24-Mar-2020 16:01:26.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/ROOT]
+24-Mar-2020 16:01:26.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/ROOT] has finished in [34] ms
+24-Mar-2020 16:01:26.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/manager]
+24-Mar-2020 16:01:26.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/manager] has finished in [52] ms
+24-Mar-2020 16:01:26.555 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/trade/apache-tomcat-8.5.51/webapps/404]
+24-Mar-2020 16:01:26.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/trade/apache-tomcat-8.5.51/webapps/404] has finished in [31] ms
+24-Mar-2020 16:01:26.707 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio2-7000"]
+24-Mar-2020 16:01:26.713 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 11594 ms
