@@ -66,8 +66,8 @@ var comm_list=
             url: "http://www.bejson.com/json2javapojo/new/"
           },
           {
-            name: "上海入园登记",
-            url: "https://rydjywt.edu.sh.cn/"
+            name: "雪球",
+            url: "https://xueqiu.com/"
           }
         ]
       },
