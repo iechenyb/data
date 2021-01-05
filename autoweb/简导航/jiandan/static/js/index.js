@@ -13,16 +13,16 @@ var comm_list=
             url: "http://activity.10jqka.com.cn/acmake/cache/858.html#/index"
           },
           {
-            name: "BJSON工具箱",
-            url: "http://www.bejson.com/network/profession_request_tools/"
+            name: "万年历",
+            url: "https://www.baidu.com/s?word=%E4%B8%87%E5%B9%B4%E5%8E%86"
           },
           {
             name: "autowebdriver",
             url: "https://npm.taobao.org/mirrors/chromedriver/87.0.4280.20/"
           },
           {
-            name: "豁免特定品种",
-            url: "https://m.cesfutures.com/kiiikweixin/vo.do?method=getProcessByFundAccount&fund_account=8776706"
+            name: "雪球",
+            url: "https://xueqiu.com/"
           },
           {
             name: "入金统计",
@@ -75,8 +75,8 @@ var comm_list=
         tag: "报表",
         link: [
           {
-            name: "疫情地图",
-            url: "http://activity.10jqka.com.cn/acmake/cache/858.html#/index"
+            name: "图片在线识别",
+            url: "https://zhcn.109876543210.com/"
           },
           {
             name: "BJSON工具箱",
@@ -95,8 +95,8 @@ var comm_list=
             url: "http://zuul.cesfutures.com:8000/report/company/openAccountStatics?start=20140101&end=20201131"
           },
           {
-            name: "松江民办学校",
-            url: "http://sh.bendibao.com/news/2018227/190663_2.shtm"
+            name: "App实时风控",
+            url: "https://dhjr.kiiik.com//pre/activateAcc?uid=114697&token=1bd9e33acc154ec099a9447aea559e61"
           },
           {
             name: "上海入园登记",
@@ -105,18 +105,18 @@ var comm_list=
         ]
       },
       {
-        tag: "社交",
+        tag: "工作",
         link: [
           {
-            name: "微博",
-            url: "https://www.weibo.com/"
+            name: "加班统计",
+            url: "https://docs.qq.com/sheet/DYUZ5ZlZFRVFJc2lL?groupUin=YlknE6Hp%252FeOVWEyhxSDT1g%253D%253D&tab=BB08J2"
           },
           {
-            name: "贴吧",
-            url: "https://tieba.baidu.com/"
+            name: "摆渡",
+            url: "https://192.168.24.250/UniExServices/view/jsp/login.jsp"
           },
           {
-            name: "知乎",
+            name: "万年历",
             url: "https://www.zhihu.com/"
           },
           {
