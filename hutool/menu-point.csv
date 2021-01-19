@@ -1,0 +1,16 @@
+menuName,menuDesc,parentName,parentId,ordor,url
+积分系统,,无,,,
+普通积分,,积分系统,598,5,points/#/generalrules
+常规签到,,积分系统,598,10,points/#/conventionrules
+节日签到,,积分系统,598,15,points/#/festiverules
+大转盘,,积分系统,598,20,points/#/?turntablerules
+用户积分,,积分系统,598,25,points/#/userpoint
+积分更正审核,,积分系统,598,30,points/#/pointschangecheck
+商品管理,,积分系统,598,35,points/#/goodslist
+客户推荐管理,,积分系统,598,40,points/#/recommendlist
+积分兑换管理,,积分系统,598,45,points/#/pointconvert
+兑换统计,,积分系统,598,50,points/#/convert
+类型统计,,积分系统,598,55,points/#/?type
+用户统计,,积分系统,598,60,points/#/user
+推荐统计,,积分系统,598,65,points/#/recommend
+年度统计,,积分系统,598,70,points/#/year

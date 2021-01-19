@@ -116,12 +116,12 @@ var comm_list=
             url: "https://192.168.24.250/UniExServices/view/jsp/login.jsp"
           },
           {
-            name: "万年历",
-            url: "https://www.zhihu.com/"
+            name: "OA",
+            url: "http://oa.kiiik.com:8000/wui/main.jsp"
           },
           {
-            name: "豆瓣",
-            url: "https://www.douban.com/"
+            name: "CRM",
+            url: "http://zuul.cesfutures.com:8000/index.html#/"
           },
           {
             name: "V2EX",
